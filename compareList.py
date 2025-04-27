@@ -1,7 +1,7 @@
 import json
 
 # Load the dictionary from the JSON file
-with open('user_info.json', 'r') as file:
+with open('userIngredients.json', 'r') as file:
     userInfo = json.load(file)
 
 # Access the value for 'name'
@@ -10,4 +10,3 @@ print(name_value)
 print(userInfo.get('age'))
 
 
-hello = "Hello, World!"
