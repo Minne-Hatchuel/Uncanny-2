@@ -1,6 +1,6 @@
 import json
 
-userIngredients = {}
+userIngredients = 
 
 egg = input("Do you have egg? 1(yes)/0(no) ")
 if egg == '1':
