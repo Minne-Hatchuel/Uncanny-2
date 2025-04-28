@@ -20,8 +20,11 @@ for key, value in recipeIngredients.items():
     elif set(value).issubset(set(yesIngredients)):
         recipeList.append(key)
 
-if len(recipeList) == 0:
+if len(recipeList) > 0:
+    print(recipeList)
+elif len(recipeList) == 0:
     print("No recipes found")
+
 
 
 
