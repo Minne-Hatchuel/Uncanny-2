@@ -1,139 +1,62 @@
 import json
 
-userIngredients = 
+# List of ingredients to ask the user about
+ingredients = [
+    "egg", "tomato", "feta cheese", "salt", "pepper", "bread", "milk", "sugar",
+    "pasta", "pesto", "arugula", "lemon", "olive oil", "cucumber", "onion",
+    "red wine vinegar", "parmesan cheese", "butter", "bacon", "bell pepper",
+    "cumin", "coriander", "paprika", "flour", "baking powder"
+]
 
-egg = input("Do you have egg? 1(yes)/0(no) ")
-if egg == '1':
-    userIngredients['egg'] = True
-else:
-    userIngredients['egg'] = False
-tomato = input("Do you have tomato? 1(yes)/0(no) ")
-if tomato == '1':
-    userIngredients['tomato'] = True
-else:               
-    userIngredients['tomato'] = False       
-feta_cheese = input("Do you have feta cheese? 1(yes)/0(no) ")
-if feta_cheese == '1':
-    userIngredients['feta_cheese'] = True
-else:
-    userIngredients['feta_cheese'] = False
-salt = input("Do you have salt? 1(yes)/0(no) ")
-if salt == '1':
-    userIngredients['salt'] = True
-else:
-    userIngredients['salt'] = False
-pepper = input("Do you have pepper? 1(yes)/0(no) ")
-if pepper == '1':
-    userIngredients['pepper'] = True
-else:
-    userIngredients['pepper'] = False
-bread = input("Do you have bread? 1(yes)/0(no) ")
-if bread == '1':
-    userIngredients['bread'] = True
-else:
-    userIngredients['bread'] = False
-milk = input("Do you have milk? 1(yes)/0(no) ")
-if milk == '1':
-    userIngredients['milk'] = True
-else:
-    userIngredients['milk'] = False
-sugar = input("Do you have sugar? 1(yes)/0(no) ")
-if sugar == '1':
-    userIngredients['sugar'] = True
-else:
-    userIngredients['sugar'] = False            
-pasta = input("Do you have pasta? 1(yes)/0(no) ")
-if pasta == '1':
-    userIngredients['pasta'] = True
-else:
-    userIngredients['pasta'] = False
-pesto = input("Do you have pesto? 1(yes)/0(no) ")
-if pesto == '1':
-    userIngredients['pesto'] = True
-else:
-    userIngredients['pesto'] = False
-arugula = input("Do you have arugula? 1(yes)/0(no) ")   
-if arugula == '1':
-    userIngredients['arugula'] = True
-else:
-    userIngredients['arugula'] = False
-lemon = input("Do you have lemon? 1(yes)/0(no) ")
-if lemon == '1':
-    userIngredients['lemon'] = True
-else:
-    userIngredients['lemon'] = False
-olive_oil = input("Do you have olive oil? 1(yes)/0(no) ")
-if olive_oil == '1':
-    userIngredients['olive_oil'] = True
-else:
-    userIngredients['olive_oil'] = False
-cucumber = input("Do you have cucumber? 1(yes)/0(no) ") 
-if cucumber == '1':
-    userIngredients['cucumber'] = True
-else:
-    userIngredients['cucumber'] = False
-onion = input("Do you have onion? 1(yes)/0(no) ")
-if onion == '1':
-    userIngredients['onion'] = True
-else:
-    userIngredients['onion'] = False
-red_wine_vinegar = input("Do you have red wine vinegar? 1(yes)/0(no) ")     
-if red_wine_vinegar == '1':
-    userIngredients['red_wine_vinegar'] = True
-else:
-    userIngredients['red_wine_vinegar'] = False
-parmesan_cheese = input("Do you have parmesan cheese? 1(yes)/0(no) ")
-if parmesan_cheese == '1':
-    userIngredients['parmesan_cheese'] = True
-else:
-    userIngredients['parmesan_cheese'] = False
-butter = input("Do you have butter? 1(yes)/0(no) ")
-if butter == '1':
-    userIngredients['butter'] = True
-else:
-    userIngredients['butter'] = False
-bacon = input("Do you have bacon? 1(yes)/0(no) ")
-if bacon == '1':
-    userIngredients['bacon'] = True
-else:
-    userIngredients['bacon'] = False
-bell_pepper = input("Do you have bell pepper? 1(yes)/0(no) ")
-if bell_pepper == '1':
-    userIngredients['bell_pepper'] = True
-else:
-    userIngredients['bell_pepper'] = False
-cumin = input("Do you have cumin? 1(yes)/0(no) ")
-if cumin == '1':
-    userIngredients['cumin'] = True
-else:
-    userIngredients['cumin'] = False
-coriander = input("Do you have coriander? 1(yes)/0(no) ")
-if coriander == '1':
-    userIngredients['coriander'] = True
-else:
-    userIngredients['coriander'] = False        
-paprika = input("Do you have paprika? 1(yes)/0(no) ")
-if paprika == '1':
-    userIngredients['paprika'] = True
-else:
-    userIngredients['paprika'] = False
-flour = input("Do you have flour? 1(yes)/0(no) ")
-if flour == '1':
-    userIngredients['flour'] = True
-else:
-    userIngredients['flour'] = False        
-baking_powder = input("Do you have baking powder? 1(yes)/0(no) ")
-if baking_powder == '1':
-    userIngredients['baking_powder'] = True
-else:
-    userIngredients['baking_powder'] = False
+userIngredients = {}
+
+def get_user_input(ingredient):
+    while True:
+        response = input(f"Do you have {ingredient}? Enter 1 for Yes or 0 for No: ")
+        if response in ['1', '0']:
+            return response == '1'  # Return True for '1', False for '0'
+        else:
+            print("Invalid input. Please enter 1 for Yes or 0 for No.")
+
+for ingredient in ingredients:
+    userIngredients[ingredient] = get_user_input(ingredient)
 
 
-# Print the dictionary
-print(userIngredients)
+print("\nHere are the ingredients you have:")
+for ingredient, has_it in userIngredients.items():
+    print(f"- {ingredient}: {'Yes' if has_it else 'No'}")
 
-# Save the dictionary to a JSON file
+    
+
+print("\nWould you like to make any changes to your ingredient list? (yes/no)")
+while True:
+    change = input().strip().lower()
+    if change == 'yes':
+        ingredient_to_change = input("Enter the ingredient you want to change: ").strip()
+        if ingredient_to_change in userIngredients:
+            new_value = get_user_input(ingredient_to_change)
+            userIngredients[ingredient_to_change] = new_value
+            print(f"Updated {ingredient_to_change} to {'Yes' if new_value else 'No'}.")
+            
+            print("\nHere are the updated ingredients:")
+            for ingredient, has_it in userIngredients.items():
+                print(f"- {ingredient}: {'Yes' if has_it else 'No'}")
+
+            # Ask if the user wants to continue making changes
+            print("\nWould you like to make more changes? (yes/no)")
+            continue_changes = input().strip().lower()
+            if continue_changes == 'yes':
+                continue  # Go back to the top of the loop
+            elif continue_changes == 'no':
+                break
+        else:
+            print("Ingredient not found in your list.")
+    elif change == 'no':
+        break
+    else:
+        print("Would you like to make a change to your list? Please enter 'yes' or 'no'.")
+
 with open('userIngredients.json', 'w') as file:
     json.dump(userIngredients, file)
 
-print("User info saved to userIngredients.json")
+print("\nYour ingredient list has been saved to 'userIngredients.json'.")
