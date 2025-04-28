@@ -13,17 +13,20 @@ print(yesIngredients)
 
 from inventory import recipeIngredients
 
-recipeList = []
-for key, value in recipeIngredients.items():
-    if set(value) == set(yesIngredients):
-        recipeList.append(key)
-    elif set(value).issubset(set(yesIngredients)):
-        recipeList.append(key)
+def compareList(yesIngredients, recipeIngredients):
+    recipeList = []
+    for key, value in recipeIngredients.items():
+        if set(value) == set(yesIngredients):
+            recipeList.append(key)
+        elif set(value).issubset(set(yesIngredients)):
+            recipeList.append(key)
+    return recipeList
 
-if len(recipeList) > 0:
-    print(recipeList)
-elif len(recipeList) == 0:
-    print("No recipes found")
+def showCompareList(recipeList):
+    if len(recipeList) > 0:
+        print(recipeList)
+    elif len(recipeList) == 0:
+        print("No recipes found")
 
 
 
