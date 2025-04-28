@@ -26,6 +26,36 @@ print("\nHere are the ingredients you have:")
 for ingredient, has_it in userIngredients.items():
     print(f"- {ingredient}: {'Yes' if has_it else 'No'}")
 
+    
+
+print("\nWould you like to make any changes to your ingredient list? (yes/no)")
+while True:
+    change = input().strip().lower()
+    if change == 'yes':
+        ingredient_to_change = input("Enter the ingredient you want to change: ").strip()
+        if ingredient_to_change in userIngredients:
+            new_value = get_user_input(ingredient_to_change)
+            userIngredients[ingredient_to_change] = new_value
+            print(f"Updated {ingredient_to_change} to {'Yes' if new_value else 'No'}.")
+            
+            print("\nHere are the updated ingredients:")
+            for ingredient, has_it in userIngredients.items():
+                print(f"- {ingredient}: {'Yes' if has_it else 'No'}")
+
+            # Ask if the user wants to continue making changes
+            print("\nWould you like to make more changes? (yes/no)")
+            continue_changes = input().strip().lower()
+            if continue_changes == 'yes':
+                continue  # Go back to the top of the loop
+            elif continue_changes == 'no':
+                break
+        else:
+            print("Ingredient not found in your list.")
+    elif change == 'no':
+        break
+    else:
+        print("Would you like to make a change to your list? Please enter 'yes' or 'no'.")
+
 with open('userIngredients.json', 'w') as file:
     json.dump(userIngredients, file)
 
