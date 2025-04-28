@@ -10,3 +10,4 @@ recipeIngredients = {'Greek omelette': ['egg', 'tomato', 'feta cheese', 'pepper'
     'Lemon cake': ['egg', 'sugar', 'flour', 'butter', 'lemon', 'baking powder']
 }
 
+recipeNames = ['Greek omelette', 'French toast', 'Italian pasta salad', 'Greek salad', 'Pasta carbonara', 'Shakshuka', 'Chocolate cake', 'Lemon cake']
