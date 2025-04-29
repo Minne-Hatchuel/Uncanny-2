@@ -2,33 +2,48 @@ from tkinter import *
  
 # create a root window.
 top = Tk()
+
+# Define the size of the window.
+top.geometry("500x800")
+
+# Create a frame for the welcome screen
+welcome_frame = Frame(top, bg="white")
+welcome_frame.pack(fill="both", expand=True)
+
+# Add a label to the welcome screen
+welcome_label = Label(welcome_frame, text="Welcome to Your Kitchen!", font=("Helvetica", 24), bg="white", fg="black")
+welcome_label.pack(expand=True)
+
+# Create a frame for the listbox screen
+listbox_frame = Frame(top)
  
 # create listbox object
-listbox = Listbox(top, height = 25,
+listbox = Listbox(listbox_frame, height = 25,
                   width = 15, 
                   bg = "grey",
                   activestyle = 'dotbox', 
                   font = "Helvetica",
                   fg = "yellow")
- 
-# Define the size of the window.
-top.geometry("500x800")  
- 
-# Define a label for the list.  
-label = Label(top, text = " FOOD ITEMS") 
- 
-# insert elements by their
-# index and names.
 
+# Define a label for the list
+label = Label(listbox_frame, text=" FOOD ITEMS")
+
+# Insert elements into the listbox
 from inventory import ingredients
 for i in range(len(ingredients)):
     listbox.insert(i, ingredients[i])
- 
-# pack the widgets
+
+# Pack the widgets for the listbox screen
 label.pack()
 listbox.pack()
  
- 
-# Display until User 
-# exits themselves.
+# Function to switch to the listbox screen
+def show_listbox(event):
+    welcome_frame.pack_forget()  # Hide the welcome screen
+    listbox_frame.pack(fill="both", expand=True)  # Show the listbox screen
+
+# Bind the spacebar key to switch screens
+top.bind("<space>", show_listbox)
+
+# Display until User exits themselves
 top.mainloop()
