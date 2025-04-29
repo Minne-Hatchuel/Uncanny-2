@@ -12,7 +12,11 @@ welcome_frame.pack(fill="both", expand=True)
 
 # Add a label to the welcome screen
 welcome_label = Label(welcome_frame, text="Welcome to Your Kitchen!", font=("Helvetica", 24), bg="white", fg="black")
-welcome_label.pack(expand=True)
+welcome_label.pack(pady=(50, 10))
+
+# Add a smaller label below the welcome text
+instruction_label = Label(welcome_frame, text="Please click A, B, or C", font=("Helvetica", 14), bg="white", fg="black")
+instruction_label.pack(pady=(0, 20))
 
 # Create a frame for the listbox screen
 listbox_frame = Frame(top)
