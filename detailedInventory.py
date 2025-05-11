@@ -1,7 +1,7 @@
 
 #ingredient name and measurement unit NEED TO FILL IN
 
-detailedIngredients = {'egg':'pieces', 'tomato':'pieces', 'feta cheese':'grams', 'salt': '???', 'pepper': '???', 'bread': 'pieces', 'milk': 'millileters', 'sugar':'tablespoons', 'pasta':'bags?', 'pesto':'???', 'arugula': '???', 'lemon': '???', 'olive oil': '???', 'cucumber': '???', 'onion': '???', 'red wine vinegar': '???', 'parmesan cheese': '???', 'butter': '???', 'bacon': '???', 'bell pepper': '???', 'cumin': '???', 'coriander': '???', 'paprika': '???', 'flour': '???', 'chocolate': '???', 'baking powder': '???'}
+IngredientUnits = {'egg':'pieces', 'tomato':'pieces', 'feta cheese':'grams', 'salt': '???', 'pepper': '???', 'bread': 'pieces', 'milk': 'millileters', 'sugar':'tablespoons', 'pasta':'bags?', 'pesto':'???', 'arugula': '???', 'lemon': '???', 'olive oil': '???', 'cucumber': '???', 'onion': '???', 'red wine vinegar': '???', 'parmesan cheese': '???', 'butter': '???', 'bacon': '???', 'bell pepper': '???', 'cumin': '???', 'coriander': '???', 'paprika': '???', 'flour': '???', 'chocolate': '???', 'baking powder': '???'}
 
 detailedRecipeIngredients = {
     'Greek omelette': {'egg': 1, 'tomato': 1, 'feta cheese': 1, 'pepper': 1, 'salt': 1},

@@ -10,6 +10,8 @@ ingredients = [
 
 userIngredients = {}
 
+print("It is time to input your ingredients. Please answer the following questions with 1 for Yes and 0 for No.\n")
+
 def get_user_input(ingredient):
     while True:
         response = input(f"Do you have {ingredient}? Enter 1 for Yes or 0 for No: ")
@@ -60,3 +62,6 @@ with open('userIngredients.json', 'w') as file:
     json.dump(userIngredients, file)
 
 print("\nYour ingredient list has been saved to 'userIngredients.json'.")
+print("You can now navigate to the function scripts")
+
+
