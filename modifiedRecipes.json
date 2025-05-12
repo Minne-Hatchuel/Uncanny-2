@@ -7,7 +7,8 @@
         "Pasta carbonara",
         "Shakshuka",
         "Chocolate cake",
-        "Lemon cake"
+        "Lemon cake",
+        "toast"
     ],
     "modifiedRecipeIngredients": {
         "Greek omelette": [
@@ -79,6 +80,10 @@
             "butter",
             "lemon",
             "baking powder"
+        ],
+        "toast": [
+            "bread",
+            "butter"
         ]
     },
     "modifiedRecipeInformation": {
@@ -161,6 +166,7 @@
             "coldOrHot": "hot",
             "description": "...",
             "instructions": "..."
-        }
+        },
+        "toast": "easy"
     }
 }
