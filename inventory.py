@@ -11,3 +11,87 @@ recipeIngredients = {'Greek omelette': ['egg', 'tomato', 'feta cheese', 'pepper'
 }
 
 recipeNames = ['Greek omelette', 'French toast', 'Italian pasta salad', 'Greek salad', 'Pasta carbonara', 'Shakshuka', 'Chocolate cake', 'Lemon cake']
+
+print("Here are the recipes you can make with the ingredients you have:")
+
+recipeInformation = {
+    "Greek omelette": {
+        'type': 'breakfast',
+        'cookingTimeMinutes': 0,
+        'difficulty': 'easy',
+        'dishes': 1,
+        'servings': 1,
+        'coldOrHot': 'hot',  
+        'description': '...',
+        'instructions': '...'
+    },
+    "French toast": {
+        'type': 'breakfast',
+        'cookingTimeMinutes': 0,
+        'difficulty': 'easy',
+        'dishes': 1,
+        'servings': 1,
+        'coldOrHot': 'hot',  
+        'description': '...',
+        'instructions': '...'
+    },
+    "Italian pasta salad": {
+        'type': 'breakfast',
+        'cookingTimeMinutes': 0,
+        'difficulty': 'easy',
+        'dishes': 1,
+        'servings': 1,
+        'coldOrHot': 'hot',  
+        'description': '...',
+        'instructions': '...'
+    },
+    "Greek salad": {
+        'type': 'breakfast',
+        'cookingTimeMinutes': 0,
+        'difficulty': 'easy',
+        'dishes': 1,
+        'servings': 1,
+        'coldOrHot': 'hot',  
+        'description': '...',
+        'instructions': '...'
+    },  
+    "Pasta carbonara": {
+        'type': 'breakfast',
+        'cookingTimeMinutes': 0,
+        'difficulty': 'easy',
+        'dishes': 1,
+        'servings': 1,
+        'coldOrHot': 'hot',  
+        'description': '...',
+        'instructions': '...'
+    },
+    "Shakshuka": {
+        'type': 'breakfast',
+        'cookingTimeMinutes': 0,
+        'difficulty': 'easy',
+        'dishes': 1,
+        'servings': 1,
+        'coldOrHot': 'hot',  
+        'description': '...',
+        'instructions': '...'
+    },
+    "Chocolate cake": {
+        'type': 'breakfast',
+        'cookingTimeMinutes': 0,
+        'difficulty': 'easy',
+        'dishes': 1,
+        'servings': 1,
+        'coldOrHot': 'hot',  
+        'description': '...',
+        'instructions': '...'
+    },
+    "Lemon cake": {'type': 'breakfast',
+        'cookingTimeMinutes': 0,
+        'difficulty': 'easy',
+        'dishes': 1,
+        'servings': 1,
+        'coldOrHot': 'hot',  
+        'description': '...',
+        'instructions': '...'}
+        
+}
