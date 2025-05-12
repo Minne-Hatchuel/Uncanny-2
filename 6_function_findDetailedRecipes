@@ -1,0 +1,32 @@
+import json
+
+# Load the dictionary from the JSON file
+with open('detailedIngredients.json', 'r') as file:
+    detailedIngredients = json.load(file)
+
+from detailedInventory import detailedRecipeIngredients
+
+# Function to compare ingredients
+def find_possible_recipes(detailedIngredients, detailedRecipeIngredients):
+    possible_recipes = []
+
+    for recipe, ingredients in detailedRecipeIngredients.items():
+        can_make = True
+        for ingredient, required_amount in ingredients.items():
+            available_amount = detailedIngredients.get(ingredient, 0)  # Default to 0 if ingredient is missing
+            if available_amount < required_amount:
+                can_make = False
+                break
+        if can_make:
+            possible_recipes.append(recipe)
+
+    return possible_recipes
+
+# Find recipes that can be made
+possible_recipes = find_possible_recipes(detailedIngredients, detailedRecipeIngredients)
+
+# Print the results
+print("Recipes you can make:", possible_recipes)
+
+
+
