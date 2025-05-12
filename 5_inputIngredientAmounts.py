@@ -32,7 +32,7 @@ detailedIngredients = {
 from detailedInventory import IngredientUnits
 
 print("For this script, you will input the amount of each ingredient you have in your kitchen.")
-print("Please pay attention to the units of measurement for each ingredient. For some ingredients that do not have specific measurements, you can just input if you have it or not. ")
+print("Please pay attention to the units of measurement for each ingredient. For some ingredients that do not have specific measurements, you can just input if you have it or not with a 1 or 0. ")
 print("Here are the ingredients and their units of measurement:")
 
 for ingredient in detailedIngredients.keys():
