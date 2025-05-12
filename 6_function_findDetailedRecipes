@@ -13,7 +13,7 @@ def find_possible_recipes(detailedIngredients, detailedRecipeIngredients):
     for recipe, ingredients in detailedRecipeIngredients.items():
         can_make = True
         for ingredient, required_amount in ingredients.items():
-            available_amount = detailedIngredients.get(ingredient, 0)  # Default to 0 if ingredient is missing
+            available_amount = detailedIngredients.get(ingredient, 0) 
             if available_amount < required_amount:
                 can_make = False
                 break
