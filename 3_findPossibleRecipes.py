@@ -26,9 +26,13 @@ def showCompareList(recipeList):
     if len(recipeList) > 0:
         print(recipeList)
     elif len(recipeList) == 0:
-        print("No recipes found")
+        print("No recipes found, try adding some more basic recipes under the 'add recipe' heading!")
 
+# Compare the ingredients and get the list of possible recipes
+possibleRecipes = compareList(yesIngredients, recipeIngredients)
 
+# Display the possible recipes
+showCompareList(possibleRecipes)
 
 
 
