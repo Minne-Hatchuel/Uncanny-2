@@ -100,7 +100,15 @@ recipeInformation = {
         'difficulty': 'hard',
         'dishes': 1,
         'servings': 4,
-        'instructions': 'Heat up an oiled pan. Chope up your onion and cook it in the pan until slightlmy golden.\n\n2) Add in your chopped tomatoes and bell peppers, cover the pan and let simmer.\n\n3) Once the tomato, onion, bell pepper mixture begins looking like a thick sauce, add in your salt, pepper, coriander, cumin, paprika, and mix well.\n\n4) Crack your eggs into the sauce and cover the pan until cooked. Serve.'
+        'instructions': '1) Heat up an oiled pan. Chope up your onion and cook it in the pan until slightlmy golden.\n\n2) Add in your chopped tomatoes and bell peppers, cover the pan and let simmer.\n\n3) Once the tomato, onion, bell pepper mixture begins looking like a thick sauce, add in your salt, pepper, coriander, cumin, paprika, and mix well.\n\n4) Crack your eggs into the sauce and cover the pan until cooked. Serve.'
+    },
+    "Quinoa bowl": {
+        'type': 'warm dish',
+        'cookingTimeMinutes': 20,
+        'difficulty': 'easy',
+        'dishes': 3,
+        'servings': 1,
+        'instructions': '1) Boil 2 parts of water for 1 part of quinoa.\n\n2) While the quinoa cooks, heat up an oiled pan and cook your egg sunny-side-up.\n\n3) Chop up your cherry tomatoes and avocado.\n\n4) When the quinoa and egg are cooked, assemble the bowl by first adding the quinoa, then the egg and chopped vegetables.\n\n5) Top your bowl with some olive oil, lemon, salt, pepper, and serve.'
     },
     "Vegetable soup": {
         'type': 'breakfast',
