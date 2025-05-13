@@ -7,7 +7,7 @@ recipeIngredients = {'Greek omelette': ['egg', 'tomato', 'feta cheese', 'pepper'
     'Italian pasta salad': ['pasta', 'tomato', 'pesto', 'arugula', 'olive oil', 'lemon', 'pepper', 'salt'],
     'Greek salad': ['cucumber', 'tomato', 'onion', 'feta cheese', 'olive oil', 'red wine vinegar', 'salt', 'pepper'],
     'Spring rolls': ['rice paper', 'extra-firm tofu', 'carrot', 'cucumber', 'avocado', 'mint', 'cabbage'],
-    'Ceasar salad': ['bread', 'olive oil', 'parmesan cheese', 'garlic', 'dijon mustard', 'red wine vinegar', 'salt', 'pepper', 'romaine lettuce'],
+    'Caesar salad': ['bread', 'olive oil', 'parmesan cheese', 'garlic', 'dijon mustard', 'red wine vinegar', 'salt', 'pepper', 'romaine lettuce'],
     'Pasta carbonara': ['pasta', 'egg', 'parmesan cheese', 'butter', 'bacon', 'salt', 'pepper'],
     'Shakshuka': ['egg', 'tomato', 'bell pepper', 'onion', 'olive oil', 'salt', 'pepper', 'coriander', 'cumin', 'paprika'],
     'Quinoa bowl': ['quinoa', 'egg', 'cherry tomatoes', 'avocado', 'salt', 'pepper', 'olive oil', 'lemon'],
@@ -18,7 +18,7 @@ recipeIngredients = {'Greek omelette': ['egg', 'tomato', 'feta cheese', 'pepper'
     'Cinnamon rolls': ['milk', 'sugar', 'yeast', 'butter', 'egg', 'flour', 'cinnamon', 'powdered sugar']
 }
 
-recipeNames = ['Greek omelette', 'French toast', 'Italian pasta salad', 'Greek salad', 'Pasta carbonara', 'Shakshuka', 'Chocolate cake', 'Lemon cake']
+recipeNames = ['Greek omelette', 'French toast', 'Pancakes', 'Crepes', 'Italian pasta salad', 'Greek salad', 'Spring rolls', 'Caesar salad', 'Pasta carbonara', 'Shakshuka', 'Quinoa bowl', 'Vegetable soup', 'Chocolate cake', 'Lemon cake', 'Chocolate chip cookies', 'Cinnamon rolls']
 
 
 recipeInformation = {
