@@ -68,7 +68,7 @@ recipeInformation = {
         'difficulty': 'easy',
         'dishes': 1,
         'servings': 2, 
-        'instructions': '...'
+        'instructions': '1) Chop up your cucumber, tomatoes, and onion.\n\n2) In a bowl, mix some olive oil, red wine vinegar, salt, and pepper for the dressing.\n\n3) Add in your chopped vegetables as well as some feta cubes.\n\n4) Mix well before serving.'
     },
     "Spring rolls": {
         'type': 'breakfast',
