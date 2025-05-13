@@ -2,6 +2,12 @@ import json
 
 from inventory import recipeNames, recipeIngredients, recipeInformation
 
+# Define the list of allowed ingredients
+ingredients = set()
+for ing_list in recipeIngredients.values():
+    ingredients.update(ing_list)
+ingredients = list(ingredients)
+
 modifiedRecipeNames = recipeNames
 modifiedRecipeIngredients = recipeIngredients
 modifiedRecipeInformation = recipeInformation
@@ -9,10 +15,24 @@ modifiedRecipeInformation = recipeInformation
 
 # Function to add a new recipe
 def add_new_recipe():
+
+    # Show all possible ingredients
+    print("Possible ingredients:")
+    print(", ".join(ingredients))
+    print("Only add ingredients from the above list.")
+
     # Get user input for the new recipe
     recipe_name = input("Enter the name of the recipe (for example, 'Toast'): ")
-    recipe_ingredients = input("Enter the ingredients (comma-separated): ").split(",")
-    
+   
+   # Loop until all entered ingredients are valid
+    while True:
+        recipe_ingredients = input("Enter the ingredients (comma-separated and without caps): ").split(",")
+        recipe_ingredients = [i.strip() for i in recipe_ingredients]
+        if all(ing in ingredients for ing in recipe_ingredients):
+            break
+        else:
+            print("One or more ingredients are not in the allowed list. Please try again.")
+
     # Get user input for the meal type
     print("Select the meal type:")
     print("1 - Breakfast")
@@ -44,6 +64,32 @@ def add_new_recipe():
                 print("Invalid input. Please enter a number between 1 and 4.")
         except ValueError:
             print("Invalid input. Please enter a valid number.")
+ 
+    # Get user input for cooking time, number of pots/pans, servings, and instructions
+    cooking_time = input("Enter the cooking time in minutes: ")
+    while True:
+        try:
+            dishes = int(input("Enter the number of pots or pans needed: "))
+            break
+        except ValueError:
+            print("Invalid input. Please enter a number.")
+    while True:
+        try:
+            servings = int(input("Enter the number of servings: "))
+            break
+        except ValueError:
+            print("Invalid input. Please enter a number.")
+    instructions = input("Enter the instructions: ")
+
+    # Create the recipe information dictionary
+    recipeInformation = {
+        "type": meal_type,
+        "cookingTimeMinutes": cooking_time,
+        "difficulty": difficulty_level,
+        "dishes": dishes,
+        "servings": servings,
+        "instructions": instructions
+    }
             
     # Add the new recipe to the modified data
     modifiedRecipeNames.append(recipe_name)

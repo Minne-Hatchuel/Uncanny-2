@@ -2,13 +2,21 @@
     "modifiedRecipeNames": [
         "Greek omelette",
         "French toast",
+        "Pancakes",
+        "Crepes",
         "Italian pasta salad",
         "Greek salad",
+        "Spring rolls",
+        "Caesar salad",
         "Pasta carbonara",
         "Shakshuka",
+        "Quinoa bowl",
+        "Vegetable soup",
         "Chocolate cake",
         "Lemon cake",
-        "toast"
+        "Chocolate chip cookies",
+        "Cinnamon rolls",
+        "Burnt toast"
     ],
     "modifiedRecipeIngredients": {
         "Greek omelette": [
@@ -23,6 +31,22 @@
             "bread",
             "milk",
             "sugar"
+        ],
+        "Pancakes": [
+            "flour",
+            "butter",
+            "milk",
+            "egg",
+            "baking powder",
+            "sugar",
+            "vanilla extract"
+        ],
+        "Crepes": [
+            "flour",
+            "sugar",
+            "butter",
+            "egg",
+            "milk"
         ],
         "Italian pasta salad": [
             "pasta",
@@ -43,6 +67,26 @@
             "red wine vinegar",
             "salt",
             "pepper"
+        ],
+        "Spring rolls": [
+            "rice paper",
+            "extra-firm tofu",
+            "carrot",
+            "cucumber",
+            "avocado",
+            "mint",
+            "cabbage"
+        ],
+        "Caesar salad": [
+            "bread",
+            "olive oil",
+            "parmesan cheese",
+            "garlic",
+            "dijon mustard",
+            "red wine vinegar",
+            "salt",
+            "pepper",
+            "romaine lettuce"
         ],
         "Pasta carbonara": [
             "pasta",
@@ -65,6 +109,25 @@
             "cumin",
             "paprika"
         ],
+        "Quinoa bowl": [
+            "quinoa",
+            "egg",
+            "cherry tomatoes",
+            "avocado",
+            "salt",
+            "pepper",
+            "olive oil",
+            "lemon"
+        ],
+        "Vegetable soup": [
+            "onion",
+            "carrot",
+            "potato",
+            "leek",
+            "salt",
+            "pepper",
+            "vegetable bouillon cube"
+        ],
         "Chocolate cake": [
             "egg",
             "sugar",
@@ -81,9 +144,27 @@
             "lemon",
             "baking powder"
         ],
-        "toast": [
-            "bread",
-            "butter"
+        "Chocolate chip cookies": [
+            "butter",
+            "sugar",
+            "vanilla extract",
+            "egg",
+            "flour",
+            "baking powder",
+            "chocolate"
+        ],
+        "Cinnamon rolls": [
+            "milk",
+            "sugar",
+            "yeast",
+            "butter",
+            "egg",
+            "flour",
+            "cinnamon",
+            "powdered sugar"
+        ],
+        "Burnt toast": [
+            "bread"
         ]
     },
     "modifiedRecipeInformation": {
@@ -167,6 +248,13 @@
             "description": "...",
             "instructions": "..."
         },
-        "toast": "easy"
+        "Burnt toast": {
+            "type": 1,
+            "cookingTimeMinutes": "6",
+            "difficulty": 1,
+            "dishes": 0,
+            "servings": 1,
+            "instructions": "Place bread in toaster, and forgetaboutit!"
+        }
     }
 }
