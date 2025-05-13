@@ -71,13 +71,12 @@ recipeInformation = {
         'instructions': '1) Chop up your cucumber, tomatoes, and onion.\n\n2) In a bowl, mix some olive oil, red wine vinegar, salt, and pepper for the dressing.\n\n3) Add in your chopped vegetables as well as some feta cubes.\n\n4) Mix well before serving.'
     },
     "Spring rolls": {
-        'type': 'breakfast',
-        'cookingTimeMinutes': 0,
-        'difficulty': 'easy',
+        'type': 'cold dish',
+        'cookingTimeMinutes': 10,
+        'difficulty': 'medium',
         'dishes': 1,
         'servings': 1, 
-        'description': '...',
-        'instructions': '...'
+        'instructions': '1) In a large bowl or a plate with a raised rim, add some water and soak your rice paper sheets, one at a time.\n\n2) Chop up your tofu, carrot, cucumber, avocado, and cabbage into strips.\n\n3) Lay out your rice paper on a flat surface. In the middle, put some of your vegetables, tofu, and some mint.\n\n4) Fold the sides of the rice paper over and the roll it from the top down in order to form a roll.\n\n5) Repeat these steps until you get 3-4 spring rolls and serve.'
     },
     "Caesar salad": {
         'type': 'breakfast',
