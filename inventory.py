@@ -79,22 +79,20 @@ recipeInformation = {
         'instructions': '1) In a large bowl or a plate with a raised rim, add some water and soak your rice paper sheets, one at a time.\n\n2) Chop up your tofu, carrot, cucumber, avocado, and cabbage into strips.\n\n3) Lay out your rice paper on a flat surface. In the middle, put some of your vegetables, tofu, and some mint.\n\n4) Fold the sides of the rice paper over and the roll it from the top down in order to form a roll.\n\n5) Repeat these steps until you get 3-4 spring rolls and serve.'
     },
     "Caesar salad": {
-        'type': 'breakfast',
-        'cookingTimeMinutes': 0,
-        'difficulty': 'easy',
-        'dishes': 1,
-        'servings': 1, 
-        'description': '...',
-        'instructions': '...'
+        'type': 'cold dish',
+        'cookingTimeMinutes': 15,
+        'difficulty': 'medium',
+        'dishes': 2,
+        'servings': 2, 
+        'instructions': '1) In a bowl, mix some olive oil, dijon mustard, red wine vinegar, salt, pepper, minced garlic, and grated parmesan cheese. Mix well to create a thick dressing.\n\n2) Heat up an oiled pan. Chop up your bread slices into cubes and, once the pan is hot, add them in.\n\n3) While the croutons are cooking, wash and chop up your romaine lettuce.\n\n4) Once the croutons are golden brown and crunchy, assemble your salad by adding the lettuce, croutons, and some more grated parmesan to the bowl. Mix well and serve.'
     },  
     "Pasta carbonara": {
-        'type': 'breakfast',
-        'cookingTimeMinutes': 0,
-        'difficulty': 'easy',
-        'dishes': 1,
-        'servings': 1,
-        'description': '...',
-        'instructions': '...'
+        'type': 'warm dish',
+        'cookingTimeMinutes': 15,
+        'difficulty': 'medium',
+        'dishes': 2,
+        'servings': 2,
+        'instructions': 'in'
     },
     "Shakshuka": {
         'type': 'breakfast',
