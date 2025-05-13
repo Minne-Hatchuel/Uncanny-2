@@ -1,6 +1,6 @@
 import json
 
-with open('modifiedRecipes.json', 'r') as file:
+with open('modifiedDetailedRecipes.json', 'r') as file:
     modifiedRecipes = json.load(file)
 
 recipeNames = modifiedRecipes["modifiedRecipeNames"]
@@ -117,6 +117,6 @@ else:
     print(f"{aspect} updated successfully to a new value of {info_dict[aspect]}!")
 
 # Save all changes
-with open('modifiedRecipes.json', 'w') as file:
+with open('modifiedDetailedRecipes.json', 'w') as file:
     json.dump(modifiedRecipes, file, indent=4)
 

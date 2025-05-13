@@ -142,14 +142,11 @@
             "lemon": 1,
             "baking powder": 10
         },
-        "Chocolate chip cookies": {
-            "butter": 100,
-            "sugar": 75,
-            "vanilla extract": 5,
-            "egg": 3,
-            "flour": 150,
-            "baking powder": 10,
-            "chocolate": 100
+        "Realllly burnt toast": {
+            "bread": 1
+        },
+        "Super burnt toast": {
+            "bread": 1
         },
         "Apple cake": {
             "egg": 4,
