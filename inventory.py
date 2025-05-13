@@ -1,4 +1,4 @@
-ingredients = ['egg', 'tomato', 'feta cheese', 'salt', 'pepper', 'bread', 'milk', 'sugar', 'pasta', 'pesto', 'arugula', 'lemon', 'olive oil', 'cucumber', 'onion', 'red wine vinegar', 'parmesan cheese', 'butter', 'bacon', 'bell pepper', 'cumin', 'coriander', 'paprika', 'flour', 'chocolate', 'baking powder', 'rice paper', 'extra-firm tofu', 'carrot', 'avocado', 'mint', 'cabbage', 'garlic', 'dijon mustard', 'romaine lettuce', 'quinoa', 'cherry tomatoes', 'potato', 'leek', 'vegetable bouillon cube', 'vanilla extract', 'yeast', 'cinnamon', 'powdered sugar']
+ingredients = ['egg', 'tomato', 'feta cheese', 'salt', 'pepper', 'bread', 'milk', 'sugar', 'pasta', 'pesto', 'arugula', 'lemon', 'olive oil', 'cucumber', 'onion', 'red wine vinegar', 'parmesan cheese', 'butter', 'bacon', 'bell pepper', 'cumin', 'coriander', 'paprika', 'flour', 'chocolate', 'baking powder', 'rice paper', 'extra-firm tofu', 'carrot', 'avocado', 'mint', 'cabbage', 'garlic', 'dijon mustard', 'romaine lettuce', 'quinoa', 'cherry tomatoes', 'potato', 'leek', 'vegetable bouillon cube', 'vanilla extract', 'apple']
 
 recipeIngredients = {'Greek omelette': ['egg', 'tomato', 'feta cheese', 'pepper', 'salt'],
     'French toast': ['egg', 'bread', 'milk', 'sugar'],
@@ -15,10 +15,10 @@ recipeIngredients = {'Greek omelette': ['egg', 'tomato', 'feta cheese', 'pepper'
     'Chocolate cake': ['egg', 'sugar', 'flour', 'butter', 'chocolate', 'baking powder'],
     'Lemon cake': ['egg', 'sugar', 'flour', 'butter', 'lemon', 'baking powder'],
     'Chocolate chip cookies': ['butter', 'sugar', 'vanilla extract', 'egg', 'flour', 'baking powder', 'chocolate'],
-    'Cinnamon rolls': ['milk', 'sugar', 'yeast', 'butter', 'egg', 'flour', 'cinnamon', 'powdered sugar']
+    'Apple cake': ['egg', 'sugar', 'butter', 'flour', 'baking powder', 'apple']
 }
 
-recipeNames = ['Greek omelette', 'French toast', 'Pancakes', 'Crepes', 'Italian pasta salad', 'Greek salad', 'Spring rolls', 'Caesar salad', 'Pasta carbonara', 'Shakshuka', 'Quinoa bowl', 'Vegetable soup', 'Chocolate cake', 'Lemon cake', 'Chocolate chip cookies', 'Cinnamon rolls']
+recipeNames = ['Greek omelette', 'French toast', 'Pancakes', 'Crepes', 'Italian pasta salad', 'Greek salad', 'Spring rolls', 'Caesar salad', 'Pasta carbonara', 'Shakshuka', 'Quinoa bowl', 'Vegetable soup', 'Chocolate cake', 'Lemon cake', 'Chocolate chip cookies', 'Apple cake']
 
 
 recipeInformation = {
@@ -111,46 +111,41 @@ recipeInformation = {
         'instructions': '1) Boil 2 parts of water for 1 part of quinoa.\n\n2) While the quinoa cooks, heat up an oiled pan and cook your egg sunny-side-up.\n\n3) Chop up your cherry tomatoes and avocado.\n\n4) When the quinoa and egg are cooked, assemble the bowl by first adding the quinoa, then the egg and chopped vegetables.\n\n5) Top your bowl with some olive oil, lemon, salt, pepper, and serve.'
     },
     "Vegetable soup": {
-        'type': 'breakfast',
-        'cookingTimeMinutes': 0,
+        'type': 'warm dish',
+        'cookingTimeMinutes': 30,
         'difficulty': 'easy',
         'dishes': 1,
-        'servings': 1,  
-        'description': '...',
-        'instructions': '...'
+        'servings': 4,  
+        'instructions': '1) Heat up a big pot of water. While you wait for it to boil, chop up your onion, carrots, potatoes, and leek.\n\n2) Once the water is boiling, add in your bouillon cube and wait for it to dissolve. Then, add in your salt and pepper, and your chopped vegetables.\n\n3) Let the vegetables cook until soft, then blend the soup together and serve.'
     },
     "Chocolate cake": {
-        'type': 'breakfast',
-        'cookingTimeMinutes': 0,
+        'type': 'baked good',
+        'cookingTimeMinutes': 50,
         'difficulty': 'easy',
-        'dishes': 1,
-        'servings': 1, 
-        'description': '...',
-        'instructions': '...'
+        'dishes': 2,
+        'servings': 8, 
+        'instructions': '1) Preheat your oven to 350F.\n\n2) In a bowl, mix your eggs and sugar.\n\n3) Add in the melted butter and chocolate and mix well.\n\n4) Finally, add in the flour and baking powder, and mix until the batter in homogeneous.\n\n5) Pour the batter into an oiled cake pan and bake in the oven for 30-40 minutes.'
     },
     "Lemon cake": {'type': 'breakfast',
-        'cookingTimeMinutes': 0,
+        'cookingTimeMinutes': 45,
         'difficulty': 'easy',
-        'dishes': 1,
-        'servings': 1,
-        'description': '...',
-        'instructions': '...'
+        'dishes': 2,
+        'servings': 6,
+        'instructions': '1) Preheat your oven to 350F.\n\n2) In a bowl, mix your sugar and melted butter.\n\n3) Add in your eggs, one by one, and the zest and juice of your lemon.\n\n4) Add in your flour and baking powder, and mix until homogeneous.\n\n5) Pour the batter into an oiled cake pan and bake for 30-35 minutes.'
     },
     "Chocolate chip cookies": {
-        'type': 'breakfast',
-        'cookingTimeMinutes': 0,
-        'difficulty': 'easy',
-        'dishes': 1,
-        'servings': 1, 
-        'description': '...',
-        'instructions': '...'
+        'type': 'baked good',
+        'cookingTimeMinutes': 20,
+        'difficulty': 'medium',
+        'dishes': 2,
+        'servings': 20, 
+        'instructions': '1) Preheat your oven to 375F.\n\n2) In a bowl, mix the soften butter, the sugar, and the vanilla extract.\n\n3) Add in your eggs, and the the flour and baking powder.\n\n4) Add in your chocolate (either chips or chopped wiht a knife) and combine. Kneed with your hands if necessary.\n\n5) On a baking sheet covered with parchment paper, form small balls of dough. Bake in the oven for 10 minutes.'
     },
-    "Cinnamon rolls": {
-        'type': 'breakfast',
-        'cookingTimeMinutes': 0,
+    "Apple cake": {
+        'type': 'baked good',
+        'cookingTimeMinutes': 80,
         'difficulty': 'easy',
-        'dishes': 1,
-        'servings': 1, 
-        'description': '...',
-        'instructions': '...'}       
+        'dishes': 2,
+        'servings': 8, 
+        'instructions': '1) Preheat your oven to 350F.\n\n2) Peel and chop your apples.\n\n3) In a bowl mix your eggs, sugar, and melter butter.\n\n4) Add in your flour and baking powder, and mix until the batter is homogeneous. Add in your chopped apples and mix well so that the apples are covered in batter.\n\n5) Pour the batter into an oiled pan and bake for 60 minutes.'}       
 }
