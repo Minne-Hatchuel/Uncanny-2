@@ -48,12 +48,11 @@ recipeInformation = {
     },
     "Crepes": {
         'type': 'breakfast',
-        'cookingTimeMinutes': 0,
-        'difficulty': 'easy',
-        'dishes': 1,
-        'servings': 1, 
-        'description': '...',
-        'instructions': '...'
+        'cookingTimeMinutes': 15,
+        'difficulty': 'medium',
+        'dishes': 2,
+        'servings': 4, 
+        'instructions': '1) In a bowl, add in your flour.\n\n2) Add in your eggs, one by one, and mix them in as well as possible (the batter will be very thick, thats normal).\n\n3) Then, add in your sugar and melted butter.\n\n4) Add in your milk, a little at a time, and mix well to make sure the dough remains homogeneous.\n\n5) Heat up an oiled pan (preferably a crepe pan). Once the pan is hot, pour in a ladle of the batter and immediately pick up the pan and tilt it as needed so that the batter evenly covers the pan (it should be a thin layer).\n\n6) Once the edges of the crepe begin to brown, flip the crepe and cook it for 30 more seconds.\n\n7) Serve your crepes with granulated sugar.'
     },
     "Italian pasta salad": {
         'type': 'breakfast',
