@@ -15,30 +15,42 @@
         "Chocolate cake",
         "Lemon cake",
         "Chocolate chip cookies",
-        "Cinnamon rolls",
-        "Realllly burnt toast",
-        "Super burnt toast",
-        "Extremely burnt toast"
+        "Apple cake"
     ],
     "modifiedRecipeIngredients": {
         "Greek omelette": {
-            "egg": 1,
+            "egg": 2,
             "tomato": 1,
-            "feta cheese": 1,
+            "feta cheese": 20,
             "pepper": 1,
             "salt": 1
         },
         "French toast": {
-            "egg": 1,
-            "bread": 1,
-            "milk": 1,
-            "sugar": 1
+            "egg": 2,
+            "bread": 4,
+            "milk": 50
+        },
+        "Pancakes": {
+            "flour": 250,
+            "butter": 50,
+            "milk": 400,
+            "egg": 2,
+            "baking powder": 5,
+            "sugar": 75,
+            "vanilla extract": 2
+        },
+        "Crepes": {
+            "flour": 300,
+            "sugar": 20,
+            "butter": 50,
+            "egg": 3,
+            "milk": 600
         },
         "Italian pasta salad": {
-            "pasta": 1,
-            "tomato": 1,
+            "pasta": 100,
+            "tomato": 2,
             "pesto": 1,
-            "arugula": 1,
+            "arugula": 30,
             "olive oil": 1,
             "lemon": 1,
             "pepper": 1,
@@ -46,59 +58,106 @@
         },
         "Greek salad": {
             "cucumber": 1,
-            "tomato": 1,
+            "tomato": 3,
             "onion": 1,
-            "feta cheese": 1,
+            "feta cheese": 40,
             "olive oil": 1,
             "red wine vinegar": 1,
             "salt": 1,
             "pepper": 1
         },
+        "Spring rolls": {
+            "rice paper": 4,
+            "extra-firm tofu": 20,
+            "carrot": 1,
+            "cucumber": 1,
+            "avocado": 1,
+            "mint": 4,
+            "cabbage": 1
+        },
+        "Caesar salad": {
+            "bread": 3,
+            "olive oil": 1,
+            "parmesan cheese": 20,
+            "garlic": 1,
+            "dijon mustard": 1,
+            "red wine vinegar": 1,
+            "salt": 1,
+            "pepper": 1,
+            "romaine lettuce": 1
+        },
         "Pasta carbonara": {
-            "pasta": 1,
+            "pasta": 100,
             "egg": 1,
-            "parmesan cheese": 1,
-            "butter": 1,
-            "bacon": 1,
+            "parmesan cheese": 50,
+            "butter": 10,
+            "bacon": 40,
             "salt": 1,
             "pepper": 1
         },
         "Shakshuka": {
-            "egg": 1,
-            "tomato": 1,
-            "bell pepper": 1,
+            "egg": 4,
+            "tomato": 4,
+            "bell pepper": 2,
             "onion": 1,
             "olive oil": 1,
             "salt": 1,
             "pepper": 1,
-            "coriander": 1,
-            "cumin": 1,
-            "paprika": 1
+            "coriander": 8,
+            "cumin": 6,
+            "paprika": 4
+        },
+        "Quinoa bowl": {
+            "quinoa": 80,
+            "egg": 1,
+            "cherry tomatoes": 5,
+            "avocado": 1,
+            "salt": 1,
+            "pepper": 1,
+            "olive oil": 1,
+            "lemon": 1
+        },
+        "Vegetable soup": {
+            "onion": 1,
+            "carrot": 2,
+            "potato": 3,
+            "leek": 1,
+            "salt": 1,
+            "pepper": 1,
+            "vegetable bouillon cube": 1
         },
         "Chocolate cake": {
-            "egg": 1,
-            "sugar": 1,
-            "flour": 1,
-            "butter": 1,
-            "chocolate": 1,
-            "baking powder": 1
+            "egg": 5,
+            "sugar": 180,
+            "flour": 180,
+            "butter": 125,
+            "chocolate": 200,
+            "baking powder": 10
         },
         "Lemon cake": {
-            "egg": 1,
-            "sugar": 1,
-            "flour": 1,
-            "butter": 1,
+            "egg": 3,
+            "sugar": 120,
+            "flour": 150,
+            "butter": 75,
             "lemon": 1,
-            "baking powder": 1
+            "baking powder": 10
         },
-        "Realllly burnt toast": {
-            "bread": 1
+        "Chocolate chip cookies": {
+            "butter": 100,
+            "sugar": 75,
+            "vanilla extract": 5,
+            "egg": 3,
+            "flour": 150,
+            "baking powder": 10,
+            "chocolate": 100
         },
-        "Super burnt toast": {
-            "bread": 1
-        },
-        "Extremely burnt toast": {
-            "bread": 1
+        "Apple cake": {
+            "egg": 4,
+            "sugar": 100,
+            "butter": 120,
+            "flour": 150,
+            "baking powder": 10,
+            "apple": 5
         }
     },
     "modifiedRecipeInformation": {
@@ -191,73 +250,44 @@
             "instructions": "1) Boil 2 parts of water for 1 part of quinoa.\n\n2) While the quinoa cooks, heat up an oiled pan and cook your egg sunny-side-up.\n\n3) Chop up your cherry tomatoes and avocado.\n\n4) When the quinoa and egg are cooked, assemble the bowl by first adding the quinoa, then the egg and chopped vegetables.\n\n5) Top your bowl with some olive oil, lemon, salt, pepper, and serve."
         },
         "Vegetable soup": {
-            "type": "breakfast",
-            "cookingTimeMinutes": 0,
+            "type": "warm dish",
+            "cookingTimeMinutes": 30,
             "difficulty": "easy",
             "dishes": 1,
-            "servings": 1,
-            "description": "...",
-            "instructions": "..."
+            "servings": 4,
+            "instructions": "1) Heat up a big pot of water. While you wait for it to boil, chop up your onion, carrots, potatoes, and leek.\n\n2) Once the water is boiling, add in your bouillon cube and wait for it to dissolve. Then, add in your salt and pepper, and your chopped vegetables.\n\n3) Let the vegetables cook until soft, then blend the soup together and serve."
         },
         "Chocolate cake": {
-            "type": "breakfast",
-            "cookingTimeMinutes": 0,
+            "type": "baked good",
+            "cookingTimeMinutes": 50,
             "difficulty": "easy",
-            "dishes": 1,
-            "servings": 1,
-            "description": "...",
-            "instructions": "..."
+            "dishes": 2,
+            "servings": 8,
+            "instructions": "1) Preheat your oven to 350F.\n\n2) In a bowl, mix your eggs and sugar.\n\n3) Add in the melted butter and chocolate and mix well.\n\n4) Finally, add in the flour and baking powder, and mix until the batter in homogeneous.\n\n5) Pour the batter into an oiled cake pan and bake in the oven for 30-40 minutes."
         },
         "Lemon cake": {
             "type": "breakfast",
-            "cookingTimeMinutes": 0,
+            "cookingTimeMinutes": 45,
             "difficulty": "easy",
-            "dishes": 1,
-            "servings": 1,
-            "description": "...",
-            "instructions": "..."
+            "dishes": 2,
+            "servings": 6,
+            "instructions": "1) Preheat your oven to 350F.\n\n2) In a bowl, mix your sugar and melted butter.\n\n3) Add in your eggs, one by one, and the zest and juice of your lemon.\n\n4) Add in your flour and baking powder, and mix until homogeneous.\n\n5) Pour the batter into an oiled cake pan and bake for 30-35 minutes."
         },
         "Chocolate chip cookies": {
-            "type": "breakfast",
-            "cookingTimeMinutes": 0,
+            "type": "baked good",
+            "cookingTimeMinutes": 20,
+            "difficulty": "medium",
+            "dishes": 2,
+            "servings": 20,
+            "instructions": "1) Preheat your oven to 375F.\n\n2) In a bowl, mix the soften butter, the sugar, and the vanilla extract.\n\n3) Add in your eggs, and the the flour and baking powder.\n\n4) Add in your chocolate (either chips or chopped wiht a knife) and combine. Kneed with your hands if necessary.\n\n5) On a baking sheet covered with parchment paper, form small balls of dough. Bake in the oven for 10 minutes."
+        },
+        "Apple cake": {
+            "type": "baked good",
+            "cookingTimeMinutes": 80,
             "difficulty": "easy",
-            "dishes": 1,
-            "servings": 1,
-            "description": "...",
-            "instructions": "..."
-        },
-        "Cinnamon rolls": {
-            "type": "breakfast",
-            "cookingTimeMinutes": 0,
-            "difficulty": "easy",
-            "dishes": 1,
-            "servings": 1,
-            "description": "...",
-            "instructions": "..."
-        },
-        "Realllly burnt toast": {
-            "type": 1,
-            "cookingTimeMinutes": "100",
-            "difficulty": 1,
-            "dishes": 0,
-            "servings": 1,
-            "instructions": "Place bread in toaster and never think about it again"
-        },
-        "Super burnt toast": {
-            "type": 1,
-            "cookingTimeMinutes": "60",
-            "difficulty": 1,
-            "dishes": 0,
-            "servings": 1,
-            "instructions": "Put bread in toaster and wait for almost forever"
-        },
-        "Extremely burnt toast": {
-            "type": 1,
-            "cookingTimeMinutes": "150",
-            "difficulty": 1,
-            "dishes": 0,
-            "servings": 1,
-            "instructions": "Place bread in toaster and FORGETABOUTIT"
+            "dishes": 2,
+            "servings": 8,
+            "instructions": "1) Preheat your oven to 350F.\n\n2) Peel and chop your apples.\n\n3) In a bowl mix your eggs, sugar, and melter butter.\n\n4) Add in your flour and baking powder, and mix until the batter is homogeneous. Add in your chopped apples and mix well so that the apples are covered in batter.\n\n5) Pour the batter into an oiled pan and bake for 60 minutes."
         }
     }
 }

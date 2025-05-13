@@ -23,3 +23,20 @@ detailedRecipeIngredients = {
 }
 
 RecipeNames = ['Greek omelette', 'French toast', 'Pancakes', 'Crepes', 'Italian pasta salad', 'Greek salad', 'Spring rolls', 'Caesar salad', 'Pasta carbonara', 'Shakshuka', 'Quinoa bowl', 'Vegetable soup', 'Chocolate cake', 'Lemon cake', 'Chocolate chip cookies', 'Apple cake']
+
+
+import json
+
+from inventory import recipeNames, recipeIngredients, recipeInformation
+modifiedRecipeNames = recipeNames
+modifiedRecipeIngredients = detailedRecipeIngredients
+modifiedRecipeInformation = recipeInformation
+
+modifiedDetailedRecipes = {
+    "modifiedRecipeNames": modifiedRecipeNames,
+    "modifiedRecipeIngredients": modifiedRecipeIngredients,
+    "modifiedRecipeInformation": modifiedRecipeInformation
+}
+
+with open('modifiedDetailedRecipes.json', 'w') as file:
+    json.dump(modifiedDetailedRecipes, file, indent=4) 

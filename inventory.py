@@ -149,3 +149,20 @@ recipeInformation = {
         'servings': 8, 
         'instructions': '1) Preheat your oven to 350F.\n\n2) Peel and chop your apples.\n\n3) In a bowl mix your eggs, sugar, and melter butter.\n\n4) Add in your flour and baking powder, and mix until the batter is homogeneous. Add in your chopped apples and mix well so that the apples are covered in batter.\n\n5) Pour the batter into an oiled pan and bake for 60 minutes.'}       
 }
+
+
+
+import json
+
+modifiedRecipeNames = recipeNames
+modifiedRecipeIngredients = recipeIngredients
+modifiedRecipeInformation = recipeInformation
+
+modifiedRecipes = {
+    "modifiedRecipeNames": modifiedRecipeNames,
+    "modifiedRecipeIngredients": modifiedRecipeIngredients,
+    "modifiedRecipeInformation": modifiedRecipeInformation
+}
+
+with open('modifiedRecipes.json', 'w') as file:
+    json.dump(modifiedRecipes, file, indent=4) 

@@ -41,9 +41,7 @@ detailedIngredients = {
     "leek":0, 
     "vegetable bouillon cube":0, 
     "vanilla extract":0, 
-    "yeast":0, 
-    "cinnamon":0, 
-    "powdered sugar":0
+    "apple":0, 
     # Add more ingredients as needed
 }
 
