@@ -79,40 +79,28 @@ recipeInformation = {
         'instructions': '1) In a large bowl or a plate with a raised rim, add some water and soak your rice paper sheets, one at a time.\n\n2) Chop up your tofu, carrot, cucumber, avocado, and cabbage into strips.\n\n3) Lay out your rice paper on a flat surface. In the middle, put some of your vegetables, tofu, and some mint.\n\n4) Fold the sides of the rice paper over and the roll it from the top down in order to form a roll.\n\n5) Repeat these steps until you get 3-4 spring rolls and serve.'
     },
     "Caesar salad": {
-        'type': 'breakfast',
-        'cookingTimeMinutes': 0,
-        'difficulty': 'easy',
-        'dishes': 1,
-        'servings': 1, 
-        'description': '...',
-        'instructions': '...'
+        'type': 'cold dish',
+        'cookingTimeMinutes': 15,
+        'difficulty': 'medium',
+        'dishes': 2,
+        'servings': 2, 
+        'instructions': '1) In a bowl, mix some olive oil, dijon mustard, red wine vinegar, salt, pepper, minced garlic, and grated parmesan cheese. Mix well to create a thick dressing.\n\n2) Heat up an oiled pan. Chop up your bread slices into cubes and, once the pan is hot, add them in.\n\n3) While the croutons are cooking, wash and chop up your romaine lettuce.\n\n4) Once the croutons are golden brown and crunchy, assemble your salad by adding the lettuce, croutons, and some more grated parmesan to the bowl. Mix well and serve.'
     },  
     "Pasta carbonara": {
-        'type': 'breakfast',
-        'cookingTimeMinutes': 0,
-        'difficulty': 'easy',
-        'dishes': 1,
-        'servings': 1,
-        'description': '...',
-        'instructions': '...'
+        'type': 'warm dish',
+        'cookingTimeMinutes': 15,
+        'difficulty': 'medium',
+        'dishes': 3,
+        'servings': 2,
+        'instructions': '1) Boil some water to cook your pasta. While the water heats up, add some olive oil, butter, salt, pepper, grated parmesan cheese, and an egg yolk to a bowl.\n\n2) While your pasta is cooking, heat up a pan and cooked your chopped bacon until crispy. Add them to the bowl.\n\n3) When the pasta is cooked, before straining it, take a ladle of the pasta water and add it to the bowl. Mix well until the ingredients combine into a thick sauce. Add more water if necessary.\n\n4) Add your pasta to the sauce, mix well to combine, and serve.'
     },
     "Shakshuka": {
-        'type': 'breakfast',
-        'cookingTimeMinutes': 0,
-        'difficulty': 'easy',
+        'type': 'warm dish',
+        'cookingTimeMinutes': 40,
+        'difficulty': 'hard',
         'dishes': 1,
-        'servings': 1,
-        'description': '...',
-        'instructions': '...'
-    },
-    "Quinoa bowl": {
-        'type': 'breakfast',
-        'cookingTimeMinutes': 0,
-        'difficulty': 'easy',
-        'dishes': 1,
-        'servings': 1, 
-        'description': '...',
-        'instructions': '...'
+        'servings': 4,
+        'instructions': 'Heat up an oiled pan. Chope up your onion and cook it in the pan until slightlmy golden.\n\n2) Add in your chopped tomatoes and bell peppers, cover the pan and let simmer.\n\n3) Once the tomato, onion, bell pepper mixture begins looking like a thick sauce, add in your salt, pepper, coriander, cumin, paprika, and mix well.\n\n4) Crack your eggs into the sauce and cover the pan until cooked. Serve.'
     },
     "Vegetable soup": {
         'type': 'breakfast',
