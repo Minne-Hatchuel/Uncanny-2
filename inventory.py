@@ -25,7 +25,7 @@ recipeInformation = {
     "Greek omelette": {
         'type': 'breakfast',
         'cookingTimeMinutes': 10,
-        'difficulty': 'Easy',
+        'difficulty': '1',
         'dishes': 2,
         'servings': 1, 
         'instructions': '1) In a bowl, whisk your eggs.\n\n2) Add in chopped tomatoes and mix well.\n\n3) Heat up an oiled pan. Once the pan is hot, pour in your egg and tomato mixture.\n\n4) When the eggs start solidifying, add in some crumbled feta cheese.\n\n5) Cook the omeletter to your liking, making sure to mix the eggs frequently so that they cook evenly.\n\n6) Season the omelette with salt and pepper.'
