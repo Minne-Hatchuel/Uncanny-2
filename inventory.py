@@ -111,13 +111,12 @@ recipeInformation = {
         'instructions': '1) Boil 2 parts of water for 1 part of quinoa.\n\n2) While the quinoa cooks, heat up an oiled pan and cook your egg sunny-side-up.\n\n3) Chop up your cherry tomatoes and avocado.\n\n4) When the quinoa and egg are cooked, assemble the bowl by first adding the quinoa, then the egg and chopped vegetables.\n\n5) Top your bowl with some olive oil, lemon, salt, pepper, and serve.'
     },
     "Vegetable soup": {
-        'type': 'breakfast',
-        'cookingTimeMinutes': 0,
+        'type': 'warm dish',
+        'cookingTimeMinutes': 30,
         'difficulty': 'easy',
         'dishes': 1,
-        'servings': 1,  
-        'description': '...',
-        'instructions': '...'
+        'servings': 4,  
+        'instructions': '1) Heat up a big pot of water. While you wait for it to boil, chop up your onion, carrots, potatoes, and leek.\n\n2) Once the water is boiling, add in your bouillon cube and wait for it to dissolve. Then, add in your salt and pepper, and your chopped vegetables.\n\n3) Let the vegetables cook until soft, then blend the soup together and serve.'
     },
     "Chocolate cake": {
         'type': 'breakfast',
