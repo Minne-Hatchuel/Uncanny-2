@@ -15,7 +15,8 @@
         "Chocolate cake",
         "Lemon cake",
         "Chocolate chip cookies",
-        "Apple cake"
+        "Apple cake",
+        "Burnt Toast"
     ],
     "modifiedRecipeIngredients": {
         "Greek omelette": {
@@ -142,11 +143,14 @@
             "lemon": 1,
             "baking powder": 10
         },
-        "Realllly burnt toast": {
-            "bread": 1
-        },
-        "Super burnt toast": {
-            "bread": 1
+        "Chocolate chip cookies": {
+            "butter": 100,
+            "sugar": 75,
+            "vanilla extract": 5,
+            "egg": 3,
+            "flour": 150,
+            "baking powder": 10,
+            "chocolate": 100
         },
         "Apple cake": {
             "egg": 4,
@@ -155,6 +159,9 @@
             "flour": 150,
             "baking powder": 10,
             "apple": 5
+        },
+        "Burnt Toast": {
+            "bread": 1
         }
     },
     "modifiedRecipeInformation": {
@@ -285,6 +292,14 @@
             "dishes": 2,
             "servings": 8,
             "instructions": "1) Preheat your oven to 350F.\n\n2) Peel and chop your apples.\n\n3) In a bowl mix your eggs, sugar, and melter butter.\n\n4) Add in your flour and baking powder, and mix until the batter is homogeneous. Add in your chopped apples and mix well so that the apples are covered in batter.\n\n5) Pour the batter into an oiled pan and bake for 60 minutes."
+        },
+        "Burnt Toast": {
+            "type": 1,
+            "cookingTimeMinutes": "25",
+            "difficulty": 1,
+            "dishes": 0,
+            "servings": 1,
+            "instructions": "put bread in toaster forever"
         }
     }
 }
