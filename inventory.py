@@ -24,25 +24,24 @@ recipeNames = ['Greek omelette', 'French toast', 'Pancakes', 'Crepes', 'Italian 
 recipeInformation = {
     "Greek omelette": {
         'type': 'breakfast',
-        'cookingTimeMinutes': 5,
+        'cookingTimeMinutes': 10,
         'difficulty': 'easy',
         'dishes': 2,
         'servings': 1, 
-        'instructions': 'In a bowl, whisk together 2 eggs '
+        'instructions': '1) In a bowl, whisk your eggs.\n\n2) Add in chopped tomatoes and mix well.\n\n3) Heat up an oiled pan. Once the pan is hot, pour in your egg and tomato mixture.\n\n4) When the eggs start solidifying, add in some crumbled feta cheese.\n\n5) Cook the omeletter to your liking, making sure to mix the eggs frequently so that they cook evenly.\n\n6) Season the omelette with salt and pepper.'
     },
     "French toast": {
         'type': 'breakfast',
-        'cookingTimeMinutes': 0,
+        'cookingTimeMinutes': 5,
         'difficulty': 'easy',
-        'dishes': 1,
-        'servings': 1,
-        'description': '...',
-        'instructions': '...'
+        'dishes': 2,
+        'servings': 2,
+        'instructions': '1) In a bowl, whisk your eggs with the milk.\n\n2) Add your slices of bread in the egg and milk mixture, and let them imbibe until soft.\n\n3) Heat up an oiled pan. Once the pan is hot, add in your pieces of bread (add in the wet bread only, dont pour the mixture into the pan).\n\n4) Flip over the bread slices when one side looks golden brown. Your French toast is ready when both sides are golden brown but the bread is tender on the inside.\n\n5) You may serve your French toast with some maple syrup or powdered sugar.'
     },
     "Pancakes": {
         'type': 'breakfast',
         'cookingTimeMinutes': 0,
-        'difficulty': 'easy',
+        'difficulty': 'medium',
         'dishes': 1,
         'servings': 1,
         'description': '...',
