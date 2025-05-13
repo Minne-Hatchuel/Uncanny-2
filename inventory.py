@@ -40,12 +40,11 @@ recipeInformation = {
     },
     "Pancakes": {
         'type': 'breakfast',
-        'cookingTimeMinutes': 0,
+        'cookingTimeMinutes': 20,
         'difficulty': 'medium',
-        'dishes': 1,
-        'servings': 1,
-        'description': '...',
-        'instructions': '...'
+        'dishes': 2,
+        'servings': 4,
+        'instructions': '1) In a bowl, add in your flour, baking powder, and sugar. Mix with a whisk.\n\n2) Add in your eggs and the melted butter. Make sure the butter has had time to cool so that it doesnt cook the eggs.\n\n3) Add in your milk, little by little, and mix well to make sure the batter remains homogeneous.\n\n4) Heat up an oiled pan. Once the pan is hot, pour in one or multiple ladles of batter (depending on how big you want your pancakes to be).\n\n5) When small bubbles begin to appear all over the surface of your pancakes, flip them and let them cook one more minute (until the other side is golden brown).\n\n6) You may serve your pancakes with fruit, syrup, and/or powdered sugar.'
     },
     "Crepes": {
         'type': 'breakfast',
