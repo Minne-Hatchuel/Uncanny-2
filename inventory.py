@@ -119,13 +119,12 @@ recipeInformation = {
         'instructions': '1) Heat up a big pot of water. While you wait for it to boil, chop up your onion, carrots, potatoes, and leek.\n\n2) Once the water is boiling, add in your bouillon cube and wait for it to dissolve. Then, add in your salt and pepper, and your chopped vegetables.\n\n3) Let the vegetables cook until soft, then blend the soup together and serve.'
     },
     "Chocolate cake": {
-        'type': 'breakfast',
-        'cookingTimeMinutes': 0,
+        'type': 'baked good',
+        'cookingTimeMinutes': 60,
         'difficulty': 'easy',
-        'dishes': 1,
-        'servings': 1, 
-        'description': '...',
-        'instructions': '...'
+        'dishes': 2,
+        'servings': 8, 
+        'instructions': '1) Preheat your oven to 350F.\n\n2) In a bowl, mix your eggs and sugar.\n\n3) Add in the melted butter and chocolate and mix well.\n\n4) Finally, add in the flour and baking powder, and mix until the batter in homogeneous.\n\n5) Pour the batter into an oiled cake pan and bake in the oven for 30-40 minutes.'
     },
     "Lemon cake": {'type': 'breakfast',
         'cookingTimeMinutes': 0,
