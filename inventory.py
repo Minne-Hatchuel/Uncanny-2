@@ -120,19 +120,18 @@ recipeInformation = {
     },
     "Chocolate cake": {
         'type': 'baked good',
-        'cookingTimeMinutes': 60,
+        'cookingTimeMinutes': 50,
         'difficulty': 'easy',
         'dishes': 2,
         'servings': 8, 
         'instructions': '1) Preheat your oven to 350F.\n\n2) In a bowl, mix your eggs and sugar.\n\n3) Add in the melted butter and chocolate and mix well.\n\n4) Finally, add in the flour and baking powder, and mix until the batter in homogeneous.\n\n5) Pour the batter into an oiled cake pan and bake in the oven for 30-40 minutes.'
     },
     "Lemon cake": {'type': 'breakfast',
-        'cookingTimeMinutes': 0,
+        'cookingTimeMinutes': 45,
         'difficulty': 'easy',
-        'dishes': 1,
-        'servings': 1,
-        'description': '...',
-        'instructions': '...'
+        'dishes': 2,
+        'servings': 6,
+        'instructions': '1) Preheat your oven to 350F.\n\n2) In a bowl, mix your sugar and melted butter.\n\n3) Add in your eggs, one by one, and the zest and juice of your lemon.\n\n4) Add in your flour and baking powder, and mix until homogeneous.\n\n5) Pour the batter into an oiled cake pan and bake for 30-35 minutes.'
     },
     "Chocolate chip cookies": {
         'type': 'breakfast',
