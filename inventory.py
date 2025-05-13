@@ -24,21 +24,34 @@ recipeNames = ['Greek omelette', 'French toast', 'Pancakes', 'Crepes', 'Italian 
 recipeInformation = {
     "Greek omelette": {
         'type': 'breakfast',
-        'cookingTimeMinutes': 0,
+        'cookingTimeMinutes': 10,
         'difficulty': 'easy',
-        'dishes': 1,
-        'servings': 1,
-        'coldOrHot': 'hot',  
-        'description': '...',
-        'instructions': '...'
+        'dishes': 2,
+        'servings': 1, 
+        'instructions': '1) In a bowl, whisk your eggs.\n\n2) Add in chopped tomatoes and mix well.\n\n3) Heat up an oiled pan. Once the pan is hot, pour in your egg and tomato mixture.\n\n4) When the eggs start solidifying, add in some crumbled feta cheese.\n\n5) Cook the omeletter to your liking, making sure to mix the eggs frequently so that they cook evenly.\n\n6) Season the omelette with salt and pepper.'
     },
     "French toast": {
+        'type': 'breakfast',
+        'cookingTimeMinutes': 5,
+        'difficulty': 'easy',
+        'dishes': 2,
+        'servings': 2,
+        'instructions': '1) In a bowl, whisk your eggs with the milk.\n\n2) Add your slices of bread in the egg and milk mixture, and let them imbibe until soft.\n\n3) Heat up an oiled pan. Once the pan is hot, add in your pieces of bread (add in the wet bread only, dont pour the mixture into the pan).\n\n4) Flip over the bread slices when one side looks golden brown. Your French toast is ready when both sides are golden brown but the bread is tender on the inside.\n\n5) You may serve your French toast with some maple syrup or powdered sugar.'
+    },
+    "Pancakes": {
+        'type': 'breakfast',
+        'cookingTimeMinutes': 20,
+        'difficulty': 'medium',
+        'dishes': 2,
+        'servings': 4,
+        'instructions': '1) In a bowl, add in your flour, baking powder, and sugar. Mix with a whisk.\n\n2) Add in your eggs and the melted butter. Make sure the butter has had time to cool so that it doesnt cook the eggs.\n\n3) Add in your milk, little by little, and mix well to make sure the batter remains homogeneous.\n\n4) Heat up an oiled pan. Once the pan is hot, pour in one or multiple ladles of batter (depending on how big you want your pancakes to be).\n\n5) When small bubbles begin to appear all over the surface of your pancakes, flip them and let them cook one more minute (until the other side is golden brown).\n\n6) You may serve your pancakes with fruit, syrup, and/or powdered sugar.'
+    },
+    "Crepes": {
         'type': 'breakfast',
         'cookingTimeMinutes': 0,
         'difficulty': 'easy',
         'dishes': 1,
-        'servings': 1,
-        'coldOrHot': 'hot',  
+        'servings': 1, 
         'description': '...',
         'instructions': '...'
     },
@@ -48,7 +61,6 @@ recipeInformation = {
         'difficulty': 'easy',
         'dishes': 1,
         'servings': 1,
-        'coldOrHot': 'hot',  
         'description': '...',
         'instructions': '...'
     },
@@ -57,8 +69,25 @@ recipeInformation = {
         'cookingTimeMinutes': 0,
         'difficulty': 'easy',
         'dishes': 1,
-        'servings': 1,
-        'coldOrHot': 'hot',  
+        'servings': 1, 
+        'description': '...',
+        'instructions': '...'
+    },
+    "Spring rolls": {
+        'type': 'breakfast',
+        'cookingTimeMinutes': 0,
+        'difficulty': 'easy',
+        'dishes': 1,
+        'servings': 1, 
+        'description': '...',
+        'instructions': '...'
+    },
+    "Caesar salad": {
+        'type': 'breakfast',
+        'cookingTimeMinutes': 0,
+        'difficulty': 'easy',
+        'dishes': 1,
+        'servings': 1, 
         'description': '...',
         'instructions': '...'
     },  
@@ -68,7 +97,6 @@ recipeInformation = {
         'difficulty': 'easy',
         'dishes': 1,
         'servings': 1,
-        'coldOrHot': 'hot',  
         'description': '...',
         'instructions': '...'
     },
@@ -78,7 +106,24 @@ recipeInformation = {
         'difficulty': 'easy',
         'dishes': 1,
         'servings': 1,
-        'coldOrHot': 'hot',  
+        'description': '...',
+        'instructions': '...'
+    },
+    "Quinoa bowl": {
+        'type': 'breakfast',
+        'cookingTimeMinutes': 0,
+        'difficulty': 'easy',
+        'dishes': 1,
+        'servings': 1, 
+        'description': '...',
+        'instructions': '...'
+    },
+    "Vegetable soup": {
+        'type': 'breakfast',
+        'cookingTimeMinutes': 0,
+        'difficulty': 'easy',
+        'dishes': 1,
+        'servings': 1,  
         'description': '...',
         'instructions': '...'
     },
@@ -87,8 +132,7 @@ recipeInformation = {
         'cookingTimeMinutes': 0,
         'difficulty': 'easy',
         'dishes': 1,
-        'servings': 1,
-        'coldOrHot': 'hot',  
+        'servings': 1, 
         'description': '...',
         'instructions': '...'
     },
@@ -97,8 +141,24 @@ recipeInformation = {
         'difficulty': 'easy',
         'dishes': 1,
         'servings': 1,
-        'coldOrHot': 'hot',  
         'description': '...',
-        'instructions': '...'}
-        
+        'instructions': '...'
+    },
+    "Chocolate chip cookies": {
+        'type': 'breakfast',
+        'cookingTimeMinutes': 0,
+        'difficulty': 'easy',
+        'dishes': 1,
+        'servings': 1, 
+        'description': '...',
+        'instructions': '...'
+    },
+    "Cinnamon rolls": {
+        'type': 'breakfast',
+        'cookingTimeMinutes': 0,
+        'difficulty': 'easy',
+        'dishes': 1,
+        'servings': 1, 
+        'description': '...',
+        'instructions': '...'}       
 }
