@@ -1,4 +1,4 @@
-ingredients = ['egg', 'tomato', 'feta cheese', 'salt', 'pepper', 'bread', 'milk', 'sugar', 'pasta', 'pesto', 'arugula', 'lemon', 'olive oil', 'cucumber', 'onion', 'red wine vinegar', 'parmesan cheese', 'butter', 'bacon', 'bell pepper', 'cumin', 'coriander', 'paprika', 'flour', 'chocolate', 'baking powder']
+ingredients = ['egg', 'tomato', 'feta cheese', 'salt', 'pepper', 'bread', 'milk', 'sugar', 'pasta', 'pesto', 'arugula', 'lemon', 'olive oil', 'cucumber', 'onion', 'red wine vinegar', 'parmesan cheese', 'butter', 'bacon', 'bell pepper', 'cumin', 'coriander', 'paprika', 'flour', 'chocolate', 'baking powder', 'rice paper', 'extra-firm tofu', 'carrot', 'avocado', 'mint', 'cabbage', 'garlic', 'dijon mustard', 'romaine lettuce', 'quinoa', 'cherry tomatoes', 'potato', 'leek', 'vegetable bouillon cube', 'vanilla extract', 'yeast', 'cinnamon', 'powdered sugar']
 
 recipeIngredients = {'Greek omelette': ['egg', 'tomato', 'feta cheese', 'pepper', 'salt'],
     'French toast': ['egg', 'bread', 'milk', 'sugar'],
@@ -12,7 +12,6 @@ recipeIngredients = {'Greek omelette': ['egg', 'tomato', 'feta cheese', 'pepper'
 
 recipeNames = ['Greek omelette', 'French toast', 'Italian pasta salad', 'Greek salad', 'Pasta carbonara', 'Shakshuka', 'Chocolate cake', 'Lemon cake']
 
-print("Here are the recipes you can make with the ingredients you have:")
 
 recipeInformation = {
     "Greek omelette": {
