@@ -16,7 +16,7 @@ if response == 'start':
             3. Add a new recipe
             4. Edit an existing recipe
             5. Filter recipes based on preferences
-        If you want to some more detailed functionality, you
+        If you want to see some more detailed functionality, you
         can input how much of each ingredient you have and the
         program will provide you with a list of recipes that
         you can make with those ingredients along with 

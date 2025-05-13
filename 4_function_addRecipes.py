@@ -12,26 +12,42 @@ def add_new_recipe():
     recipe_name = input("Enter the name of the recipe (for example, 'Toast'): ")
     recipe_ingredients = input("Enter the ingredients (comma-separated): ").split(",")
     
-    # Get user input for the difficulty level
-    print("Select the difficulty level:")
-    print("0 - Easy")
-    print("1 - Medium")
-    print("2 - Difficult")
-    print("3 - Master Chef")
+    # Get user input for the meal type
+    print("Select the meal type:")
+    print("1 - Breakfast")
+    print("2 - Cold dish")
+    print("3 - Warm dish")
+    print("4 - Baked good")
     while True:
         try:
-            difficulty_level = int(input("Enter the difficulty level (0-3): "))
-            if difficulty_level in [0, 1, 2, 3]:
+            meal_type = int(input("Enter the meal type (1-4): "))
+            if meal_type in [1, 2, 3, 4]:
                 break
             else:
-                print("Invalid input. Please enter a number between 0 and 3.")
+                print("Invalid input. Please enter a number between 1 and 4.")
+        except ValueError:
+            print("Invalid input. Please enter a valid number.")
+
+    # Get user input for the difficulty level
+    print("Select the difficulty level:")
+    print("1 - Easy")
+    print("2 - Medium")
+    print("3 - Difficult")
+    print("4 - Master Chef")
+    while True:
+        try:
+            difficulty_level = int(input("Enter the difficulty level (1-4): "))
+            if difficulty_level in [1, 2, 3, 4]:
+                break
+            else:
+                print("Invalid input. Please enter a number between 1 and 4.")
         except ValueError:
             print("Invalid input. Please enter a valid number.")
             
     # Add the new recipe to the modified data
     modifiedRecipeNames.append(recipe_name)
     modifiedRecipeIngredients[recipe_name] = [ingredient.strip() for ingredient in recipe_ingredients]
-    modifiedRecipeInformation[recipe_name] = recipe_information
+    modifiedRecipeInformation[recipe_name] = recipeInformation
 
     print(f"Recipe '{recipe_name}' added successfully!!")
 
