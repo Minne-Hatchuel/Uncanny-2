@@ -24,13 +24,11 @@ recipeNames = ['Greek omelette', 'French toast', 'Pancakes', 'Crepes', 'Italian 
 recipeInformation = {
     "Greek omelette": {
         'type': 'breakfast',
-        'cookingTimeMinutes': 0,
+        'cookingTimeMinutes': 5,
         'difficulty': 'easy',
-        'dishes': 1,
-        'servings': 1,
-        'coldOrHot': 'hot',  
-        'description': '...',
-        'instructions': '...'
+        'dishes': 2,
+        'servings': 1, 
+        'instructions': 'In a bowl, whisk together 2 eggs '
     },
     "French toast": {
         'type': 'breakfast',
@@ -38,7 +36,24 @@ recipeInformation = {
         'difficulty': 'easy',
         'dishes': 1,
         'servings': 1,
-        'coldOrHot': 'hot',  
+        'description': '...',
+        'instructions': '...'
+    },
+    "Pancakes": {
+        'type': 'breakfast',
+        'cookingTimeMinutes': 0,
+        'difficulty': 'easy',
+        'dishes': 1,
+        'servings': 1,
+        'description': '...',
+        'instructions': '...'
+    },
+    "Crepes": {
+        'type': 'breakfast',
+        'cookingTimeMinutes': 0,
+        'difficulty': 'easy',
+        'dishes': 1,
+        'servings': 1, 
         'description': '...',
         'instructions': '...'
     },
@@ -48,7 +63,6 @@ recipeInformation = {
         'difficulty': 'easy',
         'dishes': 1,
         'servings': 1,
-        'coldOrHot': 'hot',  
         'description': '...',
         'instructions': '...'
     },
@@ -57,8 +71,25 @@ recipeInformation = {
         'cookingTimeMinutes': 0,
         'difficulty': 'easy',
         'dishes': 1,
-        'servings': 1,
-        'coldOrHot': 'hot',  
+        'servings': 1, 
+        'description': '...',
+        'instructions': '...'
+    },
+    "Spring rolls": {
+        'type': 'breakfast',
+        'cookingTimeMinutes': 0,
+        'difficulty': 'easy',
+        'dishes': 1,
+        'servings': 1, 
+        'description': '...',
+        'instructions': '...'
+    },
+    "Caesar salad": {
+        'type': 'breakfast',
+        'cookingTimeMinutes': 0,
+        'difficulty': 'easy',
+        'dishes': 1,
+        'servings': 1, 
         'description': '...',
         'instructions': '...'
     },  
@@ -68,7 +99,6 @@ recipeInformation = {
         'difficulty': 'easy',
         'dishes': 1,
         'servings': 1,
-        'coldOrHot': 'hot',  
         'description': '...',
         'instructions': '...'
     },
@@ -78,7 +108,24 @@ recipeInformation = {
         'difficulty': 'easy',
         'dishes': 1,
         'servings': 1,
-        'coldOrHot': 'hot',  
+        'description': '...',
+        'instructions': '...'
+    },
+    "Quinoa bowl": {
+        'type': 'breakfast',
+        'cookingTimeMinutes': 0,
+        'difficulty': 'easy',
+        'dishes': 1,
+        'servings': 1, 
+        'description': '...',
+        'instructions': '...'
+    },
+    "Vegetable soup": {
+        'type': 'breakfast',
+        'cookingTimeMinutes': 0,
+        'difficulty': 'easy',
+        'dishes': 1,
+        'servings': 1,  
         'description': '...',
         'instructions': '...'
     },
@@ -87,8 +134,7 @@ recipeInformation = {
         'cookingTimeMinutes': 0,
         'difficulty': 'easy',
         'dishes': 1,
-        'servings': 1,
-        'coldOrHot': 'hot',  
+        'servings': 1, 
         'description': '...',
         'instructions': '...'
     },
@@ -97,8 +143,24 @@ recipeInformation = {
         'difficulty': 'easy',
         'dishes': 1,
         'servings': 1,
-        'coldOrHot': 'hot',  
         'description': '...',
-        'instructions': '...'}
-        
+        'instructions': '...'
+    },
+    "Chocolate chip cookies": {
+        'type': 'breakfast',
+        'cookingTimeMinutes': 0,
+        'difficulty': 'easy',
+        'dishes': 1,
+        'servings': 1, 
+        'description': '...',
+        'instructions': '...'
+    },
+    "Cinnamon rolls": {
+        'type': 'breakfast',
+        'cookingTimeMinutes': 0,
+        'difficulty': 'easy',
+        'dishes': 1,
+        'servings': 1, 
+        'description': '...',
+        'instructions': '...'}       
 }
