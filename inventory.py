@@ -95,22 +95,12 @@ recipeInformation = {
         'instructions': '1) Boil some water to cook your pasta. While the water heats up, add some olive oil, butter, salt, pepper, grated parmesan cheese, and an egg yolk to a bowl.\n\n2) While your pasta is cooking, heat up a pan and cooked your chopped bacon until crispy. Add them to the bowl.\n\n3) When the pasta is cooked, before straining it, take a ladle of the pasta water and add it to the bowl. Mix well until the ingredients combine into a thick sauce. Add more water if necessary.\n\n4) Add your pasta to the sauce, mix well to combine, and serve.'
     },
     "Shakshuka": {
-        'type': 'breakfast',
-        'cookingTimeMinutes': 0,
-        'difficulty': 'easy',
+        'type': 'warm dish',
+        'cookingTimeMinutes': 40,
+        'difficulty': 'hard',
         'dishes': 1,
-        'servings': 1,
-        'description': '...',
-        'instructions': '...'
-    },
-    "Quinoa bowl": {
-        'type': 'breakfast',
-        'cookingTimeMinutes': 0,
-        'difficulty': 'easy',
-        'dishes': 1,
-        'servings': 1, 
-        'description': '...',
-        'instructions': '...'
+        'servings': 4,
+        'instructions': 'Heat up an oiled pan. Chope up your onion and cook it in the pan until slightlmy golden.\n\n2) Add in your chopped tomatoes and bell peppers, cover the pan and let simmer.\n\n3) Once the tomato, onion, bell pepper mixture begins looking like a thick sauce, add in your salt, pepper, coriander, cumin, paprika, and mix well.\n\n4) Crack your eggs into the sauce and cover the pan until cooked. Serve.'
     },
     "Vegetable soup": {
         'type': 'breakfast',
