@@ -250,7 +250,7 @@
         },
         "Burnt toast": {
             "type": 1,
-            "cookingTimeMinutes": "6",
+            "cookingTimeMinutes": 20,
             "difficulty": 1,
             "dishes": 0,
             "servings": 1,
