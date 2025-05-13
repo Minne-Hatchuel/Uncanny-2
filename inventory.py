@@ -90,9 +90,9 @@ recipeInformation = {
         'type': 'warm dish',
         'cookingTimeMinutes': 15,
         'difficulty': 'medium',
-        'dishes': 2,
+        'dishes': 3,
         'servings': 2,
-        'instructions': 'in'
+        'instructions': '1) Boil some water to cook your pasta. While the water heats up, add some olive oil, butter, salt, pepper, grated parmesan cheese, and an egg yolk to a bowl.\n\n2) While your pasta is cooking, heat up a pan and cooked your chopped bacon until crispy. Add them to the bowl.\n\n3) When the pasta is cooked, before straining it, take a ladle of the pasta water and add it to the bowl. Mix well until the ingredients combine into a thick sauce. Add more water if necessary.\n\n4) Add your pasta to the sauce, mix well to combine, and serve.'
     },
     "Shakshuka": {
         'type': 'breakfast',
