@@ -134,20 +134,18 @@ recipeInformation = {
         'instructions': '1) Preheat your oven to 350F.\n\n2) In a bowl, mix your sugar and melted butter.\n\n3) Add in your eggs, one by one, and the zest and juice of your lemon.\n\n4) Add in your flour and baking powder, and mix until homogeneous.\n\n5) Pour the batter into an oiled cake pan and bake for 30-35 minutes.'
     },
     "Chocolate chip cookies": {
-        'type': 'breakfast',
-        'cookingTimeMinutes': 0,
-        'difficulty': 'easy',
-        'dishes': 1,
-        'servings': 1, 
-        'description': '...',
-        'instructions': '...'
+        'type': 'baked good',
+        'cookingTimeMinutes': 20,
+        'difficulty': 'medium',
+        'dishes': 2,
+        'servings': 20, 
+        'instructions': '1) Preheat your oven to 375F.\n\n2) In a bowl, mix the soften butter, the sugar, and the vanilla extract.\n\n3) Add in your eggs, and the the flour and baking powder.\n\n4) Add in your chocolate (either chips or chopped wiht a knife) and combine. Kneed with your hands if necessary.\n\n5) On a baking sheet covered with parchment paper, form small balls of dough. Bake in the oven for 10 minutes.'
     },
     "Cinnamon rolls": {
         'type': 'breakfast',
-        'cookingTimeMinutes': 0,
+        'cookingTimeMinutes': ,
         'difficulty': 'easy',
-        'dishes': 1,
-        'servings': 1, 
-        'description': '...',
-        'instructions': '...'}       
+        'dishes': 2,
+        'servings': 20, 
+        'instructions': ''}       
 }
