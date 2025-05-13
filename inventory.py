@@ -48,39 +48,35 @@ recipeInformation = {
     },
     "Crepes": {
         'type': 'breakfast',
-        'cookingTimeMinutes': 0,
-        'difficulty': 'easy',
-        'dishes': 1,
-        'servings': 1, 
-        'description': '...',
-        'instructions': '...'
+        'cookingTimeMinutes': 15,
+        'difficulty': 'medium',
+        'dishes': 2,
+        'servings': 4, 
+        'instructions': '1) In a bowl, add in your flour.\n\n2) Add in your eggs, one by one, and mix them in as well as possible (the batter will be very thick, thats normal).\n\n3) Then, add in your sugar and melted butter.\n\n4) Add in your milk, a little at a time, and mix well to make sure the dough remains homogeneous.\n\n5) Heat up an oiled pan (preferably a crepe pan). Once the pan is hot, pour in a ladle of the batter and immediately pick up the pan and tilt it as needed so that the batter evenly covers the pan (it should be a thin layer).\n\n6) Once the edges of the crepe begin to brown, flip the crepe and cook it for 30 more seconds.\n\n7) Serve your crepes with granulated sugar.'
     },
     "Italian pasta salad": {
-        'type': 'breakfast',
-        'cookingTimeMinutes': 0,
+        'type': 'cold dish',
+        'cookingTimeMinutes': 20,
         'difficulty': 'easy',
-        'dishes': 1,
-        'servings': 1,
-        'description': '...',
-        'instructions': '...'
+        'dishes': 2,
+        'servings': 2,
+        'instructions': '1) Boil some water to cook your pasta.\n\n2) While your water heats up, chop up your tomatoes and arugula.\n\n3) Cook your pasta for 10-15 minutes, depending on whether you like it al dente or not.\n\n4) Once the pasta is cooked, strain it and prepare the dressing for the salad while it cools down. In a bowl, add some olive oil, lemon, pepper, salt, and a teaspoon of pesto.\n\n5) Once the pasta has cooled down, add it to the bowl as well as the chopped tomatoes and arugula. Mix well and serve.'
     },
     "Greek salad": {
-        'type': 'breakfast',
-        'cookingTimeMinutes': 0,
+        'type': 'cold dish',
+        'cookingTimeMinutes': 5,
         'difficulty': 'easy',
         'dishes': 1,
-        'servings': 1, 
-        'description': '...',
-        'instructions': '...'
+        'servings': 2, 
+        'instructions': '1) Chop up your cucumber, tomatoes, and onion.\n\n2) In a bowl, mix some olive oil, red wine vinegar, salt, and pepper for the dressing.\n\n3) Add in your chopped vegetables as well as some feta cubes.\n\n4) Mix well before serving.'
     },
     "Spring rolls": {
-        'type': 'breakfast',
-        'cookingTimeMinutes': 0,
-        'difficulty': 'easy',
+        'type': 'cold dish',
+        'cookingTimeMinutes': 10,
+        'difficulty': 'medium',
         'dishes': 1,
         'servings': 1, 
-        'description': '...',
-        'instructions': '...'
+        'instructions': '1) In a large bowl or a plate with a raised rim, add some water and soak your rice paper sheets, one at a time.\n\n2) Chop up your tofu, carrot, cucumber, avocado, and cabbage into strips.\n\n3) Lay out your rice paper on a flat surface. In the middle, put some of your vegetables, tofu, and some mint.\n\n4) Fold the sides of the rice paper over and the roll it from the top down in order to form a roll.\n\n5) Repeat these steps until you get 3-4 spring rolls and serve.'
     },
     "Caesar salad": {
         'type': 'breakfast',
