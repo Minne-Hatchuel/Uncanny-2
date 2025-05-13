@@ -1,12 +1,8 @@
 import json
 
 # List of ingredients to ask the user about
-ingredients = [
-    "egg", "tomato", "feta cheese", "salt", "pepper", "bread", "milk", "sugar",
-    "pasta", "pesto", "arugula", "lemon", "olive oil", "cucumber", "onion",
-    "red wine vinegar", "parmesan cheese", "butter", "bacon", "bell pepper",
-    "cumin", "coriander", "paprika", "flour", "baking powder"
-]
+ingredients = ['egg', 'tomato', 'feta cheese', 'salt', 'pepper', 'bread', 'milk', 'sugar', 'pasta', 'pesto', 'arugula', 'lemon', 'olive oil', 'cucumber', 'onion', 'red wine vinegar', 'parmesan cheese', 'butter', 'bacon', 'bell pepper', 'cumin', 'coriander', 'paprika', 'flour', 'chocolate', 'baking powder', 'rice paper', 'extra-firm tofu', 'carrot', 'avocado', 'mint', 'cabbage', 'garlic', 'dijon mustard', 'romaine lettuce', 'quinoa', 'cherry tomatoes', 'potato', 'leek', 'vegetable bouillon cube', 'vanilla extract', 'yeast', 'cinnamon', 'powdered sugar']
+
 
 userIngredients = {}
 
