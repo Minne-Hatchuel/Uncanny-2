@@ -25,7 +25,7 @@ recipeInformation = {
     "Greek omelette": {
         'type': 'breakfast',
         'cookingTimeMinutes': 10,
-        'difficulty': '1',
+        'difficulty': 'Easy',
         'dishes': 2,
         'servings': 1, 
         'instructions': '1) In a bowl, whisk your eggs.\n\n2) Add in chopped tomatoes and mix well.\n\n3) Heat up an oiled pan. Once the pan is hot, pour in your egg and tomato mixture.\n\n4) When the eggs start solidifying, add in some crumbled feta cheese.\n\n5) Cook the omeletter to your liking, making sure to mix the eggs frequently so that they cook evenly.\n\n6) Season the omelette with salt and pepper.'
@@ -98,7 +98,7 @@ recipeInformation = {
     "Shakshuka": {
         'type': 'warm dish',
         'cookingTimeMinutes': 40,
-        'difficulty': 'Master chef',
+        'difficulty': 'Master Chef',
         'dishes': 1,
         'servings': 4,
         'instructions': '1) Heat up an oiled pan. Chope up your onion and cook it in the pan until slightlmy golden.\n\n2) Add in your chopped tomatoes and bell peppers, cover the pan and let simmer.\n\n3) Once the tomato, onion, bell pepper mixture begins looking like a thick sauce, add in your salt, pepper, coriander, cumin, paprika, and mix well.\n\n4) Crack your eggs into the sauce and cover the pan until cooked. Serve.'

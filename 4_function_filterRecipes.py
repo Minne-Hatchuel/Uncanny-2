@@ -49,12 +49,13 @@ elif filter_choice == "3":
     print("Which difficulty level do you want to filter by?")
     print("1 - Easy")
     print("2 - Medium")
-    print("3 - Difficult")
+    print("3 - Hard")
     print("4 - Master Chef")
     diff_choice = input("Enter the number (1-4) for the difficulty: ")
-    if diff_choice in ["1", "2", "3", "4"]:
-        selected_diff = int(diff_choice)
-        print(f"\nRecipes with difficulty level {selected_diff}:")
+    difficulty_map = {"1": "Easy", "2": "Medium", "3": "Hard", "4": "Master Chef"}
+    selected_diff = difficulty_map.get(diff_choice)
+    if selected_diff:
+        print(f"\nRecipes with difficulty level '{selected_diff}':")
         for name, info in recipe_info.items():
             if info.get("difficulty") == selected_diff:
                 print("-", name)
