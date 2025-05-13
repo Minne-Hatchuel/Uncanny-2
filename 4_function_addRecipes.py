@@ -8,10 +8,17 @@ for ing_list in recipeIngredients.values():
     ingredients.update(ing_list)
 ingredients = list(ingredients)
 
-modifiedRecipeNames = recipeNames
-modifiedRecipeIngredients = recipeIngredients
-modifiedRecipeInformation = recipeInformation
-
+# Try to load existing recipes so we don't overwrite them
+try:
+    with open('modifiedRecipes.json', 'r') as file:
+        modifiedRecipes = json.load(file)
+        modifiedRecipeNames = modifiedRecipes.get("modifiedRecipeNames", []).copy()
+        modifiedRecipeIngredients = modifiedRecipes.get("modifiedRecipeIngredients", {}).copy()
+        modifiedRecipeInformation = modifiedRecipes.get("modifiedRecipeInformation", {}).copy()
+except (FileNotFoundError, json.JSONDecodeError):
+    modifiedRecipeNames = recipeNames.copy()
+    modifiedRecipeIngredients = recipeIngredients.copy()
+    modifiedRecipeInformation = recipeInformation.copy()
 
 # Function to add a new recipe
 def add_new_recipe():
@@ -24,7 +31,7 @@ def add_new_recipe():
     # Get user input for the new recipe
     recipe_name = input("Enter the name of the recipe (for example, 'Toast'): ")
    
-   # Loop until all entered ingredients are valid
+    # Loop until all entered ingredients are valid
     while True:
         recipe_ingredients = input("Enter the ingredients (comma-separated and without caps): ").split(",")
         recipe_ingredients = [i.strip() for i in recipe_ingredients]
@@ -91,8 +98,9 @@ def add_new_recipe():
         "instructions": instructions
     }
             
-    # Add the new recipe to the modified data
-    modifiedRecipeNames.append(recipe_name)
+    # Add the new recipe to the modified data (append or update)
+    if recipe_name not in modifiedRecipeNames:
+        modifiedRecipeNames.append(recipe_name)
     modifiedRecipeIngredients[recipe_name] = [ingredient.strip() for ingredient in recipe_ingredients]
     modifiedRecipeInformation[recipe_name] = recipeInformation
 
@@ -101,7 +109,6 @@ def add_new_recipe():
 # Call the function to add a new recipe
 add_new_recipe()
 
-
 modifiedRecipes = {
     "modifiedRecipeNames": modifiedRecipeNames,
     "modifiedRecipeIngredients": modifiedRecipeIngredients,
@@ -109,4 +116,4 @@ modifiedRecipes = {
 }
 
 with open('modifiedRecipes.json', 'w') as file:
-    json.dump(modifiedRecipes, file, indent=4) 
+    json.dump(modifiedRecipes, file, indent=4)

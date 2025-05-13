@@ -16,165 +16,90 @@
         "Lemon cake",
         "Chocolate chip cookies",
         "Cinnamon rolls",
-        "Really burnt toast",
-        "Super duper burnt toast",
-        "Salty toast"
+        "Realllly burnt toast",
+        "Super burnt toast",
+        "Extremely burnt toast"
     ],
     "modifiedRecipeIngredients": {
-        "Greek omelette": [
-            "egg",
-            "tomato",
-            "feta cheese",
-            "pepper",
-            "salt"
-        ],
-        "French toast": [
-            "egg",
-            "bread",
-            "milk",
-            "sugar"
-        ],
-        "Pancakes": [
-            "flour",
-            "butter",
-            "milk",
-            "egg",
-            "baking powder",
-            "sugar",
-            "vanilla extract"
-        ],
-        "Crepes": [
-            "flour",
-            "sugar",
-            "butter",
-            "egg",
-            "milk"
-        ],
-        "Italian pasta salad": [
-            "pasta",
-            "tomato",
-            "pesto",
-            "arugula",
-            "olive oil",
-            "lemon",
-            "pepper",
-            "salt"
-        ],
-        "Greek salad": [
-            "cucumber",
-            "tomato",
-            "onion",
-            "feta cheese",
-            "olive oil",
-            "red wine vinegar",
-            "salt",
-            "pepper"
-        ],
-        "Spring rolls": [
-            "rice paper",
-            "extra-firm tofu",
-            "carrot",
-            "cucumber",
-            "avocado",
-            "mint",
-            "cabbage"
-        ],
-        "Caesar salad": [
-            "bread",
-            "olive oil",
-            "parmesan cheese",
-            "garlic",
-            "dijon mustard",
-            "red wine vinegar",
-            "salt",
-            "pepper",
-            "romaine lettuce"
-        ],
-        "Pasta carbonara": [
-            "pasta",
-            "egg",
-            "parmesan cheese",
-            "butter",
-            "bacon",
-            "salt",
-            "pepper"
-        ],
-        "Shakshuka": [
-            "egg",
-            "tomato",
-            "bell pepper",
-            "onion",
-            "olive oil",
-            "salt",
-            "pepper",
-            "coriander",
-            "cumin",
-            "paprika"
-        ],
-        "Quinoa bowl": [
-            "quinoa",
-            "egg",
-            "cherry tomatoes",
-            "avocado",
-            "salt",
-            "pepper",
-            "olive oil",
-            "lemon"
-        ],
-        "Vegetable soup": [
-            "onion",
-            "carrot",
-            "potato",
-            "leek",
-            "salt",
-            "pepper",
-            "vegetable bouillon cube"
-        ],
-        "Chocolate cake": [
-            "egg",
-            "sugar",
-            "flour",
-            "butter",
-            "chocolate",
-            "baking powder"
-        ],
-        "Lemon cake": [
-            "egg",
-            "sugar",
-            "flour",
-            "butter",
-            "lemon",
-            "baking powder"
-        ],
-        "Chocolate chip cookies": [
-            "butter",
-            "sugar",
-            "vanilla extract",
-            "egg",
-            "flour",
-            "baking powder",
-            "chocolate"
-        ],
-        "Cinnamon rolls": [
-            "milk",
-            "sugar",
-            "yeast",
-            "butter",
-            "egg",
-            "flour",
-            "cinnamon",
-            "powdered sugar"
-        ],
-        "Really burnt toast": {
+        "Greek omelette": {
+            "egg": 1,
+            "tomato": 1,
+            "feta cheese": 1,
+            "pepper": 1,
+            "salt": 1
+        },
+        "French toast": {
+            "egg": 1,
+            "bread": 1,
+            "milk": 1,
+            "sugar": 1
+        },
+        "Italian pasta salad": {
+            "pasta": 1,
+            "tomato": 1,
+            "pesto": 1,
+            "arugula": 1,
+            "olive oil": 1,
+            "lemon": 1,
+            "pepper": 1,
+            "salt": 1
+        },
+        "Greek salad": {
+            "cucumber": 1,
+            "tomato": 1,
+            "onion": 1,
+            "feta cheese": 1,
+            "olive oil": 1,
+            "red wine vinegar": 1,
+            "salt": 1,
+            "pepper": 1
+        },
+        "Pasta carbonara": {
+            "pasta": 1,
+            "egg": 1,
+            "parmesan cheese": 1,
+            "butter": 1,
+            "bacon": 1,
+            "salt": 1,
+            "pepper": 1
+        },
+        "Shakshuka": {
+            "egg": 1,
+            "tomato": 1,
+            "bell pepper": 1,
+            "onion": 1,
+            "olive oil": 1,
+            "salt": 1,
+            "pepper": 1,
+            "coriander": 1,
+            "cumin": 1,
+            "paprika": 1
+        },
+        "Chocolate cake": {
+            "egg": 1,
+            "sugar": 1,
+            "flour": 1,
+            "butter": 1,
+            "chocolate": 1,
+            "baking powder": 1
+        },
+        "Lemon cake": {
+            "egg": 1,
+            "sugar": 1,
+            "flour": 1,
+            "butter": 1,
+            "lemon": 1,
+            "baking powder": 1
+        },
+        "Realllly burnt toast": {
             "bread": 1
         },
-        "Super duper burnt toast": [
-            "bread"
-        ],
-        "Salty toast": [
-            "bread",
-            "salt"
-        ]
+        "Super burnt toast": {
+            "bread": 1
+        },
+        "Extremely burnt toast": {
+            "bread": 1
+        }
     },
     "modifiedRecipeInformation": {
         "Greek omelette": {
@@ -310,29 +235,29 @@
             "description": "...",
             "instructions": "..."
         },
-        "Really burnt toast": {
+        "Realllly burnt toast": {
             "type": 1,
-            "cookingTimeMinutes": "25",
+            "cookingTimeMinutes": "100",
             "difficulty": 1,
             "dishes": 0,
             "servings": 1,
-            "instructions": "Put bread in toaster foreverrrrrr"
+            "instructions": "Place bread in toaster and never think about it again"
         },
-        "Super duper burnt toast": {
+        "Super burnt toast": {
             "type": 1,
-            "cookingTimeMinutes": "120",
+            "cookingTimeMinutes": "60",
             "difficulty": 1,
             "dishes": 0,
             "servings": 1,
-            "instructions": "Place bread in toaster and forget about it for a realllly long time"
+            "instructions": "Put bread in toaster and wait for almost forever"
         },
-        "Salty toast": {
+        "Extremely burnt toast": {
             "type": 1,
-            "cookingTimeMinutes": "5",
+            "cookingTimeMinutes": "150",
             "difficulty": 1,
             "dishes": 0,
             "servings": 1,
-            "instructions": "Place bread in toaster for 4 minutes and then salt to taste"
+            "instructions": "Place bread in toaster and FORGETABOUTIT"
         }
     }
 }
