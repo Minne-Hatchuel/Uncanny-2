@@ -327,7 +327,7 @@
             "instructions": "Place bread in toaster and forget about it for a realllly long time"
         },
         "Salty toast": {
-            "type": 1,
+            "type": 3,
             "cookingTimeMinutes": "5",
             "difficulty": 1,
             "dishes": 0,
