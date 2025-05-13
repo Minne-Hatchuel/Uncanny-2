@@ -25,7 +25,25 @@ detailedIngredients = {
     "coriander": 0, 
     "paprika": 0, 
     "flour": 0, 
-    "baking powder": 0
+    "baking powder": 0,
+    "rice paper":0, 
+    "extra-firm tofu":0, 
+    "carrot":0, 
+    "avocado":0, 
+    "mint":0, 
+    "cabbage":0, 
+    "garlic":0, 
+    "dijon mustard":0, 
+    "romaine lettuce":0, 
+    "quinoa":0, 
+    "cherry tomatoes":0, 
+    "potato":0, 
+    "leek":0, 
+    "vegetable bouillon cube":0, 
+    "vanilla extract":0, 
+    "yeast":0, 
+    "cinnamon":0, 
+    "powdered sugar":0
     # Add more ingredients as needed
 }
 
