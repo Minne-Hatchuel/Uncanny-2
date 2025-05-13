@@ -2,12 +2,20 @@ ingredients = ['egg', 'tomato', 'feta cheese', 'salt', 'pepper', 'bread', 'milk'
 
 recipeIngredients = {'Greek omelette': ['egg', 'tomato', 'feta cheese', 'pepper', 'salt'],
     'French toast': ['egg', 'bread', 'milk', 'sugar'],
+    'Pancakes': ['flour', 'butter', 'milk', 'egg', 'baking powder', 'sugar', 'vanilla extract'],
+    'Crepes': ['flour', 'sugar', 'butter', 'egg', 'milk'],
     'Italian pasta salad': ['pasta', 'tomato', 'pesto', 'arugula', 'olive oil', 'lemon', 'pepper', 'salt'],
     'Greek salad': ['cucumber', 'tomato', 'onion', 'feta cheese', 'olive oil', 'red wine vinegar', 'salt', 'pepper'],
+    'Spring rolls': ['rice paper', 'extra-firm tofu', 'carrot', 'cucumber', 'avocado', 'mint', 'cabbage'],
+    'Ceasar salad': ['bread', 'olive oil', 'parmesan cheese', 'garlic', 'dijon mustard', 'red wine vinegar', 'salt', 'pepper', 'romaine lettuce'],
     'Pasta carbonara': ['pasta', 'egg', 'parmesan cheese', 'butter', 'bacon', 'salt', 'pepper'],
     'Shakshuka': ['egg', 'tomato', 'bell pepper', 'onion', 'olive oil', 'salt', 'pepper', 'coriander', 'cumin', 'paprika'],
+    'Quinoa bowl': ['quinoa', 'egg', 'cherry tomatoes', 'avocado', 'salt', 'pepper', 'olive oil', 'lemon'],
+    'Vegetable soup': ['onion', 'carrot', 'potato', 'leek', 'salt', 'pepper', 'vegetable bouillon cube'], 
     'Chocolate cake': ['egg', 'sugar', 'flour', 'butter', 'chocolate', 'baking powder'],
-    'Lemon cake': ['egg', 'sugar', 'flour', 'butter', 'lemon', 'baking powder']
+    'Lemon cake': ['egg', 'sugar', 'flour', 'butter', 'lemon', 'baking powder'],
+    'Chocolate chip cookies': ['butter', 'sugar', 'vanilla extract', 'egg', 'flour', 'baking powder', 'chocolate'],
+    'Cinnamon rolls': ['milk', 'sugar', 'yeast', 'butter', 'egg', 'flour', 'cinnamon', 'powdered sugar']
 }
 
 recipeNames = ['Greek omelette', 'French toast', 'Italian pasta salad', 'Greek salad', 'Pasta carbonara', 'Shakshuka', 'Chocolate cake', 'Lemon cake']
