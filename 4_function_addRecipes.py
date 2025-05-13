@@ -6,6 +6,7 @@ modifiedRecipeNames = recipeNames
 modifiedRecipeIngredients = recipeIngredients
 modifiedRecipeInformation = recipeInformation
 
+
 # Function to add a new recipe
 def add_new_recipe():
     # Get user input for the new recipe
@@ -53,6 +54,7 @@ def add_new_recipe():
 
 # Call the function to add a new recipe
 add_new_recipe()
+
 
 modifiedRecipes = {
     "modifiedRecipeNames": modifiedRecipeNames,
