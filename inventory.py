@@ -1,4 +1,4 @@
-ingredients = ['egg', 'tomato', 'feta cheese', 'salt', 'pepper', 'bread', 'milk', 'sugar', 'pasta', 'pesto', 'arugula', 'lemon', 'olive oil', 'cucumber', 'onion', 'red wine vinegar', 'parmesan cheese', 'butter', 'bacon', 'bell pepper', 'cumin', 'coriander', 'paprika', 'flour', 'chocolate', 'baking powder', 'rice paper', 'extra-firm tofu', 'carrot', 'avocado', 'mint', 'cabbage', 'garlic', 'dijon mustard', 'romaine lettuce', 'quinoa', 'cherry tomatoes', 'potato', 'leek', 'vegetable bouillon cube', 'vanilla extract', 'yeast', 'cinnamon', 'powdered sugar']
+ingredients = ['egg', 'tomato', 'feta cheese', 'salt', 'pepper', 'bread', 'milk', 'sugar', 'pasta', 'pesto', 'arugula', 'lemon', 'olive oil', 'cucumber', 'onion', 'red wine vinegar', 'parmesan cheese', 'butter', 'bacon', 'bell pepper', 'cumin', 'coriander', 'paprika', 'flour', 'chocolate', 'baking powder', 'rice paper', 'extra-firm tofu', 'carrot', 'avocado', 'mint', 'cabbage', 'garlic', 'dijon mustard', 'romaine lettuce', 'quinoa', 'cherry tomatoes', 'potato', 'leek', 'vegetable bouillon cube', 'vanilla extract', 'apple']
 
 recipeIngredients = {'Greek omelette': ['egg', 'tomato', 'feta cheese', 'pepper', 'salt'],
     'French toast': ['egg', 'bread', 'milk', 'sugar'],
@@ -15,10 +15,10 @@ recipeIngredients = {'Greek omelette': ['egg', 'tomato', 'feta cheese', 'pepper'
     'Chocolate cake': ['egg', 'sugar', 'flour', 'butter', 'chocolate', 'baking powder'],
     'Lemon cake': ['egg', 'sugar', 'flour', 'butter', 'lemon', 'baking powder'],
     'Chocolate chip cookies': ['butter', 'sugar', 'vanilla extract', 'egg', 'flour', 'baking powder', 'chocolate'],
-    'Cinnamon rolls': ['milk', 'sugar', 'yeast', 'butter', 'egg', 'flour', 'cinnamon', 'powdered sugar']
+    'Apple cake': ['egg', 'sugar', 'butter', 'flour', 'baking powder', 'apple']
 }
 
-recipeNames = ['Greek omelette', 'French toast', 'Pancakes', 'Crepes', 'Italian pasta salad', 'Greek salad', 'Spring rolls', 'Caesar salad', 'Pasta carbonara', 'Shakshuka', 'Quinoa bowl', 'Vegetable soup', 'Chocolate cake', 'Lemon cake', 'Chocolate chip cookies', 'Cinnamon rolls']
+recipeNames = ['Greek omelette', 'French toast', 'Pancakes', 'Crepes', 'Italian pasta salad', 'Greek salad', 'Spring rolls', 'Caesar salad', 'Pasta carbonara', 'Shakshuka', 'Quinoa bowl', 'Vegetable soup', 'Chocolate cake', 'Lemon cake', 'Chocolate chip cookies', 'Apple cake']
 
 
 recipeInformation = {
@@ -141,11 +141,11 @@ recipeInformation = {
         'servings': 20, 
         'instructions': '1) Preheat your oven to 375F.\n\n2) In a bowl, mix the soften butter, the sugar, and the vanilla extract.\n\n3) Add in your eggs, and the the flour and baking powder.\n\n4) Add in your chocolate (either chips or chopped wiht a knife) and combine. Kneed with your hands if necessary.\n\n5) On a baking sheet covered with parchment paper, form small balls of dough. Bake in the oven for 10 minutes.'
     },
-    "Cinnamon rolls": {
-        'type': 'breakfast',
-        'cookingTimeMinutes': ,
+    "Apple cake": {
+        'type': 'baked good',
+        'cookingTimeMinutes': 80,
         'difficulty': 'easy',
         'dishes': 2,
-        'servings': 20, 
-        'instructions': ''}       
+        'servings': 8, 
+        'instructions': '1) Preheat your oven to 350F.\n\n2) Peel and chop your apples.\n\n3) In a bowl mix your eggs, sugar, and melter butter.\n\n4) Add in your flour and baking powder, and mix until the batter is homogeneous. Add in your chopped apples and mix well so that the apples are covered in batter.\n\n5) Pour the batter into an oiled pan and bake for 60 minutes.'}       
 }
