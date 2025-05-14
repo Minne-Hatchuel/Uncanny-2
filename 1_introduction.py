@@ -23,7 +23,7 @@ if response == 'start':
         a few more functions: 
             1. Add detailed recipe
             2. Edit detailed recipe
-            3. Scale recipes by serving size
+
         
         To get started, please navigate to the script labeled 
         "2_inputIngredients.py" and run it.
